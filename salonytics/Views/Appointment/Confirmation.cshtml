@@ -1,0 +1,51 @@
+﻿@model Salonytics.Models.Entities.Appointment
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Appointment Confirmation";
+
+    if (SignInManager.IsSignedIn(User))
+    {
+        Layout = "_Layout";
+    }
+    else
+    {
+        Layout = "_FrontLayout";
+    } 
+}
+@if (ViewData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success text-center">
+        @ViewData["SuccessMessage"]
+    </div>
+}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    Appointment Confirmation
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Appointment Details</h5>
+                    <p class="card-text">
+                        <strong>Name:</strong> @Model.FullName<br />
+                        <strong>Contact Number:</strong> @Model.ContactNo<br />
+                        <strong>Email:</strong> @Model.Email<br />
+                        <strong>Service:</strong> @Model.Service.Name<br />
+                        <strong>Number of Heads:</strong> @Model.NoOfHeads<br />
+                        <strong>Total Price:</strong> @Model.TotalPrice<br />
+                        <strong>Branch:</strong> @Model.Branch.BranchName<br />
+                        <strong>Stylist:</strong> @Model.Stylist.LastName, @Model.Stylist.FirstName<br />
+                        <strong>Date:</strong> @Model.Date.ToString("yyyy-MM-dd")<br />
+                        <strong>Time:</strong> @Model.StartTime<br />
+                        <strong>Remarks:</strong> @Model.Remarks<br />
+                    </p>
+                    <a asp-action="Index" asp-controller="Home" class="btn btn-primary">Back to Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

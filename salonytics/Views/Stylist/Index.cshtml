@@ -1,0 +1,100 @@
+﻿@model salonytics.Models.StylistIndexViewModel
+@inject salonytics.Services.AppointmentService _appointmentService;
+
+
+@{
+    ViewData["Title"] = "Manage Stylists";
+}
+
+<form asp-controller="Stylist" asp-action="Index" method="get" class="mb-4">
+    <div class="row">
+        <div class="col-md-3 mb-3">
+            <label class="form-label">Branch:</label>
+            <select asp-for="BranchId" class="form-control">
+                <option value="">-- All --</option>
+                @foreach (var branch in Model.Branches)
+                {
+                    <option value="@branch.Value">@branch.Text</option>
+                }
+            </select>
+        </div>
+
+
+        <div class="col-md-3 mb-3">
+            <label class="form-label">Last Name:</label>
+            <input asp-for="LastName" class="form-control" />
+        </div>
+
+        <div class="col-md-3 mb-3">
+            <label class="form-label">Position:</label>
+            <select asp-for="Position" class="form-control">
+                <option value="">-- All --</option>
+                @foreach (var position in Model.Positions)
+                {
+                    <option value="@position">@position</option>
+                }
+            </select>
+        </div>
+
+        <div class="col-md-3 mb-3">
+            <label class="form-label">Minimum Rating:</label>
+            <input asp-for="MinRating" class="form-control" />
+        </div>
+
+        <div class="col-md-12">
+            <button type="submit" class="btn btn-primary mr-2">Apply Filters</button>
+            <a asp-action="Index" class="btn btn-secondary">Clear Filters</a>
+
+            <div class="row">
+                <div class="d-sm-inline-flex justify-content-end mb-3">
+                    <a class="btn btn-primary" href="@Url.Action("RegisterStylist", "Manager")">Create New Stylist Account</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</form>
+
+<div class="table-responsive">
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>Stylist ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email Address</th>
+                <th>Branch</th>
+                <th>Position</th>
+                <th>Average Rating</th>
+                <th>Total Sales</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var stylist in Model.Stylists)
+            {
+                <tr>
+                    <td>@stylist.StylistCode</td>
+                    <td>@stylist.FirstName</td>
+                    <td>@stylist.LastName</td>
+                    <td>@stylist.EmailAddress</td>
+                    <td>
+                        @{
+                            var branchCode = _appointmentService.GetBranchCode(stylist.BranchId);
+                        }
+                        @branchCode
+                    </td>
+                    <td>@stylist.Position</td>
+                    <td>@stylist.AverageRating</td>
+                    <td>@stylist.TotalSales</td>
+                    <td>
+                        <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@stylist.StylistId">Details</a>
+                        <a class="btn btn-info btn-sm" asp-action="AssignBranch" asp-route-id="@stylist.StylistId">Assign Branch</a>
+                        <a class="btn btn-primary btn-sm" asp-action="Edit" asp-route-id="@stylist.StylistId">Edit Details</a>
+                        <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@stylist.StylistId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

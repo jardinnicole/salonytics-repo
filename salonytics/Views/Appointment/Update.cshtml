@@ -1,0 +1,105 @@
+﻿@model Salonytics.Models.Entities.Appointment
+
+@{
+    ViewData["Title"] = "Edit Appointment";
+    var services = (List<Salonytics.Models.Entities.Service>)ViewBag.Services;
+    var branches = (List<salonytics.Models.Entities.Branch>)ViewBag.Branches;
+    var stylists = (List<salonytics.Models.Entities.Stylist>)ViewBag.Stylists;
+}
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <strong>Oops!</strong> There were some errors with your submission:
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<form asp-action="Update">
+    <input asp-for="AppointmentId" type="hidden" />
+    <input asp-for="AppointmentCode" type="hidden" />
+
+    <div class="mb-3">
+        <label asp-for="AppointmentCode" class="form-label">Appointment Code</label>
+        <input asp-for="AppointmentCode" class="form-control" readonly />
+        <span asp-validation-for="AppointmentCode" class="text-danger"></span>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-sm-6">
+            <label>Status:</label>
+            <div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" asp-for="AppointmentStatus" value="Pending">
+                    <label class="form-check-label">Pending</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" asp-for="AppointmentStatus" value="Done">
+                    <label class="form-check-label">Done</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mb-3">
+        <label asp-for="FullName" class="form-label">Full Name</label>
+        <input asp-for="FullName" class="form-control" required>
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="ContactNo" class="form-label">Contact Number</label>
+        <input asp-for="ContactNo" class="form-control" pattern="\d{11}" title="Contact number must be exactly 11 digits." required>
+        <span asp-validation-for="ContactNo" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">Email</label>
+        <input asp-for="Email" class="form-control" required>
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="ServiceId" class="form-label">Service</label>
+        <select asp-for="ServiceId" asp-items="@(new SelectList(services, "ServiceId", "Name"))" class="form-select" required>
+            <option value="">-- Select Service --</option>
+        </select>
+        <span asp-validation-for="ServiceId" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="BranchId" class="form-label">Branch</label>
+        <select asp-for="BranchId" asp-items="@(new SelectList(branches, "BranchId", "BranchName"))" class="form-select" required>
+            <option value="">-- Select Branch --</option>
+        </select>
+        <span asp-validation-for="BranchId" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="StylistId" class="form-label">Stylist</label>
+        <select asp-for="StylistId" asp-items="@(new SelectList(stylists, "StylistId", "FirstName"))" class="form-select" required>
+            <option value="">-- Select Stylist --</option>
+        </select>
+        <span asp-validation-for="StylistId" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Date" class="form-label">Date</label>
+        <input asp-for="Date" class="form-control" type="date" required>
+        <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="StartTime" class="form-label">Start Time</label>
+        <input asp-for="StartTime" class="form-control" type="time" required>
+        <span asp-validation-for="StartTime" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="NoOfHeads" class="form-label">Number of Heads</label>
+        <input asp-for="NoOfHeads" class="form-control" type="number" min="1" required>
+        <span asp-validation-for="NoOfHeads" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Remarks" class="form-label">Remarks</label>
+        <textarea asp-for="Remarks" class="form-control"></textarea>
+        <span asp-validation-for="Remarks" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>

@@ -1,0 +1,67 @@
+﻿@model salonytics.Models.WeeklyScheduleViewModel
+
+@{
+    ViewData["Title"] = "Edit Schedule";
+}
+
+<h2>Edit Schedule for @Model.StylistName</h2>
+
+<form asp-action="EditSchedule" method="post">
+    <input type="hidden" asp-for="StylistId" />
+
+    @for (int i = 0; i < Model.DailySchedules.Count; i++)
+    {
+        <div class="day-schedule">
+            <h3>@Model.DailySchedules[i].DayOfWeek</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Start Time</th>
+                        <th>End Time</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int j = 0; j < Model.DailySchedules[i].Schedules.Count; j++)
+                    {
+                        <tr>
+                            <td>
+                                <input name="DailySchedules[@i].Schedules[@j].StartTime" class="form-control" type="time" />
+                            </td>
+                            <td>
+                                <input name="DailySchedules[@i].Schedules[@j].EndTime" class="form-control" type="time" />
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-danger" onclick="removeScheduleRow(this)">Remove</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-primary" onclick="addScheduleRow(@i)">Add Time Slot</button>
+        </div>
+    }
+
+    <button type="submit" class="btn btn-primary">Create Schedule</button>
+</form>
+
+@section Scripts {
+    <script>
+        function addScheduleRow(dayIndex) {
+            var tableBody = document.querySelector(`.day-schedule:nth-of-type(${dayIndex + 1}) .table tbody`);
+            var row = document.createElement('tr');
+            var index = tableBody.children.length;
+            row.innerHTML = `
+                                                                <td><input name="DailySchedules[${dayIndex}].Schedules[${index}].StartTime" class="form-control" type="time" /></td>
+                                                                <td><input name="DailySchedules[${dayIndex}].Schedules[${index}].EndTime" class="form-control" type="time" /></td>
+                                                                <td><button type="button" class="btn btn-danger" onclick="removeScheduleRow(this)">Remove</button></td>
+                                                            `;
+            tableBody.appendChild(row);
+        }
+
+        function removeScheduleRow(button) {
+            var row = button.closest('tr');
+            row.remove();
+        }
+    </script>
+}

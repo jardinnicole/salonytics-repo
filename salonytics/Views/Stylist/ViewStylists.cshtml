@@ -1,0 +1,69 @@
+﻿@model IEnumerable<salonytics.Models.StylistViewModel>
+
+@{
+    ViewBag.Title = "View Stylists";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div>
+    <a class="btn btn-primary" href="@Url.Action("AddStylist", "Stylist")">Add Stylist</a>
+   
+
+    <a class="btn btn-primary" href="@Url.Action("RegisterStylist", "Manager")">Create New Stylist Account</a>
+    <form asp-action="ViewStylists" method="get" class="form-inline">
+        <div class="form-group mr-2">
+            <label for="branchFilter">Filter by Branch:</label>
+            <option value="">Select Branch</option>
+            <select class="form-control" required>
+                @foreach (var branch in ViewBag.Branches)
+                {
+                    <option value="@branch.Value">@branch.Text</option>
+                }
+            </select>
+        </div>
+        <div class="form-group mr-2">
+            <label for="lastNameFilter">Filter by Last Name:</label>
+            <input type="text" id="lastNameFilter" name="lastName" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Filter</button>
+    </form>
+</div>
+
+<div class="mt-3 mb-3">
+   
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Stylist ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Branch</th>
+            <th>Manager</th>
+            <th>Average Rating</th>
+            <th>Actions</th> <!-- New column for actions -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var stylist in Model)
+        {
+            <tr>
+                <td>@stylist.StylistId</td>
+                <td>@stylist.FirstName</td>
+                <td>@stylist.LastName</td>
+                <td>@stylist.BranchName</td>
+                <td>@stylist.AverageRating</td>
+                <td>
+                    <!-- Add action buttons for editing, deleting, etc. -->
+                    <a class="btn btn-primary" href="@Url.Action("EditStylist", "Stylist", new { stylistId = stylist.StylistId })">Edit Info</a>
+                    <a class="btn btn-primary" href="@Url.Action("CreateSchedule", "Schedule", new { stylistId = stylist.StylistId })">Edit Schedule</a>
+                    <a class="btn btn-primary" href="@Url.Action("CreateSlot", "Appointment", new { stylistId = stylist.StylistId })">Manage Slots</a>
+
+                    <!-- Add more action buttons as needed -->
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

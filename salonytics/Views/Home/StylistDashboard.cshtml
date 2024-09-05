@@ -1,0 +1,95 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylist Dashboard</title>
+    <style>
+        .rating {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Stylist Dashboard</h1>
+
+    <div class="container">
+        <div class="card">
+            <h2>Services Offered</h2>
+            <ul id="servicesList"></ul>
+        </div>
+
+        <div class="card">
+            <h2>Schedule</h2>
+            <table id="scheduleTable">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Time Slot</th>
+                    </tr>
+                </thead>
+                <tbody id="scheduleBody">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>Current Rating</h2>
+            <p id="currentRating" class="rating"></p>
+        </div>
+    </div>
+
+    <script>
+        // Sample data for services offered
+        const servicesOffered = [
+            { name: 'Haircut' },
+            { name: 'Hair Color' },
+            { name: 'Blowout' }
+        ];
+
+        // Sample data for schedule
+        const schedule = [
+            { date: '2024-05-15', timeSlot: '9:00 AM - 11:00 AM' },
+            { date: '2024-05-17', timeSlot: '1:00 PM - 3:00 PM' },
+            { date: '2024-05-20', timeSlot: '10:00 AM - 12:00 PM' }
+        ];
+
+        // Sample data for current rating
+        const currentRating = 4.5;
+
+        // Display services offered
+        const servicesList = document.getElementById('servicesList');
+        servicesOffered.forEach(service => {
+            const listItem = document.createElement('li');
+            listItem.textContent = service.name;
+            servicesList.appendChild(listItem);
+        });
+
+        // Display schedule
+        const scheduleBody = document.getElementById('scheduleBody');
+        schedule.forEach(slot => {
+            const row = document.createElement('tr');
+            const dateCell = document.createElement('td');
+            dateCell.textContent = slot.date;
+            const timeSlotCell = document.createElement('td');
+            timeSlotCell.textContent = slot.timeSlot;
+            row.appendChild(dateCell);
+            row.appendChild(timeSlotCell);
+            scheduleBody.appendChild(row);
+        });
+
+        // Display current rating
+        const currentRatingElement = document.getElementById('currentRating');
+        currentRatingElement.textContent = currentRating;
+    </script>
+
+</body>
+</html>

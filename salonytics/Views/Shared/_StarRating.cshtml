@@ -1,0 +1,45 @@
+﻿@model int?
+
+@{
+    int rating = Model ?? 0; // Default to 0 if Model is null
+}
+
+<div class="star-rating">
+    @for (int i = 1; i <= 5; i++)
+    {
+        <span class="star @(i <= rating ? "checked" : "")">&#9733;</span>
+    }
+    @Html.HiddenFor(model => model)
+</div>
+
+@section Scripts {
+    <script>
+        $(function () {
+            $('.star-rating .star').click(function () {
+                var rating = $(this).index() + 1;
+                $(this).siblings().removeClass('checked');
+                $(this).addClass('checked');
+                $(this).closest('.star-rating').find('input').val(rating);
+            });
+        });
+    </script>
+
+    <style>
+        .star-rating {
+            unicode-bidi: bidi-override;
+            direction: rtl;
+            text-align: left;
+        }
+
+        .star {
+            display: inline-block;
+            font-size: 20px;
+            color: #ccc;
+            cursor: pointer;
+        }
+
+            .star.checked {
+                color: gold;
+            }
+    </style>
+}

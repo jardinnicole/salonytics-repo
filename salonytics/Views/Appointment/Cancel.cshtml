@@ -1,0 +1,34 @@
+﻿@model Salonytics.Models.Entities.Appointment
+
+@{
+    ViewData["Title"] = "Cancel Appointment";
+}
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Are you sure you want to cancel this appointment?</h5>
+        <dl class="row">
+            <dt class="col-sm-3">Appointment ID:</dt>
+            <dd class="col-sm-9">@Model.AppointmentId</dd>
+            <dt class="col-sm-3">Full Name:</dt>
+            <dd class="col-sm-9">@Model.FullName</dd>
+            <dt class="col-sm-3">Service:</dt>
+            <dd class="col-sm-9">@Model.Service.Name</dd>
+            <dt class="col-sm-3">Branch:</dt>
+            <dd class="col-sm-9">@Model.Branch.BranchName</dd>
+            <dt class="col-sm-3">Date:</dt>
+            <dd class="col-sm-9">@Model.Date.ToString("yyyy-MM-dd")</dd>
+            <dt class="col-sm-3">Start Time:</dt>
+            <dd class="col-sm-9">@Model.StartTime.ToString("hh\\:mm")</dd>
+            <dt class="col-sm-3">Number of Heads:</dt>
+            <dd class="col-sm-9">@Model.NoOfHeads</dd>
+            <dt class="col-sm-3">Remarks:</dt>
+            <dd class="col-sm-9">@Model.Remarks</dd>
+        </dl>
+        <form asp-action="CancelConfirmed">
+            <input type="hidden" asp-for="AppointmentId" />
+            <button type="submit" class="btn btn-danger">Yes, Cancel Appointment</button>
+            <a asp-action="Index" class="btn btn-secondary">No, Go Back</a>
+        </form>
+    </div>
+</div>

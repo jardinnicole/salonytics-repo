@@ -1,0 +1,31 @@
+﻿@model salonytics.Models.WeeklyScheduleViewModel
+
+@{
+    ViewData["Title"] = "View Schedule";
+}
+
+<h2>Schedule for @Model.StylistName</h2>
+
+@foreach (var dailySchedule in Model.DailySchedules)
+{
+    <div class="day-schedule">
+        <h3>@dailySchedule.DayOfWeek</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Start Time</th>
+                    <th>End Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var schedule in dailySchedule.Schedules)
+                {
+                    <tr>
+                        <td>@schedule.StartTime</td>
+                        <td>@schedule.EndTime</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

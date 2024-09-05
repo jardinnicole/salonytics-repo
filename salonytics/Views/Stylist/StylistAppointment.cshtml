@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Salonytics.Models.Entities.Appointment>
+
+@{
+    ViewData["Title"] = "My Appointments";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center">My Appointments</h2>
+
+    @if (Model == null || !Model.Any())
+    {
+        <p class="text-center">You have no appointments scheduled.</p>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var appointment in Model)
+            {
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Appointment ID: @appointment.AppointmentCode</h5>
+                            <p><strong>Status:</strong> @appointment.AppointmentStatus</p>
+                            <p><strong>Customer:</strong> @appointment.FullName</p>
+                            <p><strong>Service:</strong> @appointment.Service.Name</p>
+                            <p><strong>Branch:</strong> @appointment.Branch?.BranchName</p>
+                            <p><strong>Date:</strong> @appointment.Date.ToShortDateString()</p>
+                            <p><strong>Time:</strong> @appointment.StartTime.ToString(@"hh\:mm") - @appointment.EndTime?.ToString(@"hh\:mm")</p>
+                            <p><strong>Number of Heads:</strong> @appointment.NoOfHeads</p>
+                            @if (!string.IsNullOrEmpty(appointment.Remarks))
+                            {
+                                <p><strong>Remarks:</strong> @appointment.Remarks</p>
+                            }
+                            <p><strong>Total Price:</strong> @appointment.TotalPrice.ToString("C")</p>
+                            @if (appointment.TipAmount.HasValue)
+                            {
+                                <p><strong>Tip Amount:</strong> @appointment.TipAmount.Value.ToString("C")</p>
+                            }
+                            @if (appointment.Rating.HasValue)
+                            {
+                                <p><strong>Rating:</strong> @appointment.Rating.Value stars</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        // Any additional scripts can be added here if needed
+    </script>
+}

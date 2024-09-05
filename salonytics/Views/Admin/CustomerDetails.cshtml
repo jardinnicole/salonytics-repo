@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model salonytics.Models.Entities.Customer
+
+@{
+    ViewData["Title"] = "Customer Details";
+}
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-4">Customer ID</dt>
+        <dd class="col-sm-8">@Model.CustomerId</dd>
+
+        <dt class="col-sm-4">First Name</dt>
+        <dd class="col-sm-8">@Model.FirstName</dd>
+
+        <dt class="col-sm-4">Last Name</dt>
+        <dd class="col-sm-8">@Model.LastName</dd>
+
+         <dt class="col-sm-4">Address</dt>
+        <dd class="col-sm-8">@Model.Address</dd>
+
+        <dt class="col-sm-4">Contact Number</dt>
+        <dd class="col-sm-8">@Model.ContactNumber</dd>
+
+        <dt class="col-sm-4">Gender</dt>
+        <dd class="col-sm-8">@Model.Gender</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="CustomerInfo" asp-controller="Admin">Back to List</a>
+</div>
+

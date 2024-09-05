@@ -1,0 +1,202 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-chart-line"></i> Sales Report</h5>
+                    <ul class="nav nav-tabs" id="salesTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="weekly-tab" data-bs-toggle="tab" href="#weekly" role="tab" aria-controls="weekly" aria-selected="true">Weekly</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="monthly-tab" data-bs-toggle="tab" href="#monthly" role="tab" aria-controls="monthly" aria-selected="false">Monthly</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="yearly-tab" data-bs-toggle="tab" href="#yearly" role="tab" aria-controls="yearly" aria-selected="false">Yearly</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="salesTabContent">
+                        <div class="tab-pane fade show active" id="weekly" role="tabpanel" aria-labelledby="weekly-tab">
+                            <canvas id="weeklySalesChart" width="400" height="200"></canvas>
+                        </div>
+                        <div class="tab-pane fade" id="monthly" role="tabpanel" aria-labelledby="monthly-tab">
+                            <canvas id="monthlySalesChart" width="400" height="200"></canvas>
+                        </div>
+                        <div class="tab-pane fade" id="yearly" role="tabpanel" aria-labelledby="yearly-tab">
+                            <canvas id="yearlySalesChart" width="400" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-building"></i> Top Branches</h5>
+                    <ul id="topBranches" class="list-group list-group-flush">
+                        <!-- Top branches will be loaded dynamically -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-user-tie"></i> Top Stylists</h5>
+                    <ul id="topStylists" class="list-group list-group-flush">
+                        <!-- Top stylists will be loaded dynamically -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-concierge-bell"></i> Top Services</h5>
+                    <ul id="topServices" class="list-group list-group-flush">
+                        <!-- Top services will be loaded dynamically -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-calendar-alt"></i> Calendar</h5>
+                    <div id="calendar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <!-- JavaScript libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            function loadChartData(url, canvasId, label) {
+                $.get(url, function (data) {
+                    var ctx = document.getElementById(canvasId).getContext('2d');
+                    new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+                            datasets: [{
+                                label: label,
+                                data: data,
+                                borderColor: 'rgba(75, 192, 192, 1)',
+                                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            scales: {
+                                yAxes: [{
+                                    ticks: {
+                                        beginAtZero: true
+                                    }
+                                }]
+                            }
+                        }
+                    });
+                });
+            }
+
+            // Load weekly sales chart
+            loadChartData('@Url.Action("GetWeeklySalesData", "Home")', 'weeklySalesChart', 'Weekly Sales');
+
+            // Load monthly sales chart
+            loadChartData('@Url.Action("GetMonthlySalesData", "Home")', 'monthlySalesChart', 'Monthly Sales');
+
+            // Load yearly sales chart
+            loadChartData('@Url.Action("GetYearlySalesData", "Home")', 'yearlySalesChart', 'Yearly Sales');
+
+            // Load top branches data
+            $.get('@Url.Action("GetTopBranchesData", "Home")', function (data) {
+                var topBranches = $('#topBranches');
+                $.each(data, function (index, item) {
+                    topBranches.append('<li class="list-group-item">' + item + '</li>');
+                });
+            });
+
+            // Load top stylists data
+            $.get('@Url.Action("GetTopStylistsData", "Home")', function (data) {
+                var topStylists = $('#topStylists');
+                $.each(data, function (index, item) {
+                    topStylists.append('<li class="list-group-item">' + item + '</li>');
+                });
+            });
+
+            // Load top services data
+            $.get('@Url.Action("GetTopServicesData", "Home")', function (data) {
+                var topServices = $('#topServices');
+                $.each(data, function (index, item) {
+                    topServices.append('<li class="list-group-item">' + item + '</li>');
+                });
+            });
+
+            // Initialize FullCalendar
+            $('#calendar').fullCalendar({
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,agendaWeek,agendaDay'
+                },
+                events: {
+                    url: '@Url.Action("GetCalendarEvents", "Home")'
+                }
+            });
+        });
+    </script>
+
+    <style>
+        .card-body {
+            height: 380px;
+            border-radius: 10px;
+            font-size: 14px;
+            z-index: 0;
+        }
+
+        canvas {
+            height: 100% !important;
+        }
+
+        .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+            background-color: #f8f9fa;
+        }
+
+        .nav-tabs .nav-link {
+            color: #495057;
+        }
+
+        .card-title {
+            color: #495057;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            margin-bottom: 20px; /* Bottom margin for cards */
+        }
+
+        .list-group-item {
+            padding: 10px 15px; /* Padding for list group items */
+        }
+    </style>
+}

@@ -1,0 +1,26 @@
+﻿@media print {
+    /* Hide everything on the page */
+    body * {
+        visibility: hidden;
+    }
+
+    /* Show only the print-container */
+    .print-container, .print-container * {
+        visibility: visible;
+    }
+
+    /* Adjust the print-container's position */
+    .print-container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    /* Ensure no additional margins or paddings */
+    @page {
+        margin: 0;
+    }
+}

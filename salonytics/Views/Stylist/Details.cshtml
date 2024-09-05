@@ -1,0 +1,45 @@
+﻿@model salonytics.Models.Entities.Stylist
+
+<h1>Stylist Details</h1>
+
+<div>
+    <h4>Stylist ID: @Model.StylistId</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">First Name:</dt>
+        <dd class="col-sm-10">@Model.FirstName</dd>
+
+        <dt class="col-sm-2">Last Name:</dt>
+        <dd class="col-sm-10">@Model.LastName</dd>
+
+        <dt class="col-sm-2">Email Address:</dt>
+        <dd class="col-sm-10">@Model.EmailAddress</dd>
+
+        <dt class="col-sm-2">Branch:</dt>
+        <dd class="col-sm-10" id="branchName"></dd>
+
+        <dt class="col-sm-2">Position:</dt>
+        <dd class="col-sm-10">@Model.Position</dd>
+
+        <dt class="col-sm-2">Average Rating:</dt>
+        <dd class="col-sm-10">@Model.AverageRating</dd>
+
+        <dt class="col-sm-2">Total Sales:</dt>
+        <dd class="col-sm-10">@Model.TotalSales</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.StylistId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    <script>
+        // JavaScript to fetch branch name using branch ID
+        var branches = @Html.Raw(Json.Serialize(ViewData["Branches"]));
+        var branchId = '@Model.BranchId';
+        var branchName = branches.find(b => b.value === branchId).text;
+        document.getElementById('branchName').innerText = branchName;
+    </script>
+}

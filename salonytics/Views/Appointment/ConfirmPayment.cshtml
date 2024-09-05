@@ -1,0 +1,32 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@model salonytics.Models.ConfirmationViewModel
+
+@{
+    ViewData["Title"] = "Payment Confirmation";
+
+    if (SignInManager.IsSignedIn(User))
+    {
+        Layout = "_Layout";
+    }
+    else
+    {
+        Layout = "_FrontLayout";
+    }
+}
+
+<h2>Payment Confirmation</h2>
+
+<div>
+    <h3>Thank you for your payment!</h3>
+    <p>Appointment Details:</p>
+    <p>Service: @Model.Appointment.Service.Name</p>
+    <p>Date: @Model.Appointment.Date.ToShortDateString()</p>
+    <p>Time: @Model.Appointment.StartTime.ToString(@"hh\:mm")</p>
+    <p>Total Price: P@Model.Appointment.TotalPrice</p>
+    <p>Transaction ID: @Model.Transaction.TransactionId</p>
+    <p>Payer ID: @Model.Transaction.PayerId</p>
+    <p>Status: @Model.Transaction.Status</p>
+</div>

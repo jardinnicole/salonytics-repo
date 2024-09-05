@@ -1,0 +1,123 @@
+﻿@model List<salonytics.Models.SalesSummaryViewModel>
+
+@{
+    ViewData["Title"] = "Sales Summary";
+}
+
+@{
+    // Calculate highest and lowest sale dates
+    DateTime? highestSaleDate = ViewBag.HighestSale != null ? ViewBag.HighestSale.Date : (DateTime?)null;
+    DateTime? lowestSaleDate = ViewBag.LowestSale != null ? ViewBag.LowestSale.Date : (DateTime?)null;
+}
+
+<h2>Sales Summary</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">Best Selling Service</h5>
+            </div>
+            <div class="card-body">
+                @if (highestSaleDate.HasValue)
+                {
+                    <p>Date: 15-Feb-2024 to 21-May-2024</p>
+                    <p>Service: @ViewBag.HighestSale.Service</p>
+                    <p>Total Sales: @ViewBag.HighestSale.TotalSales.ToString("C")</p>
+                }
+                else
+                {
+                    <p>No data available.</p>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">Lowest Selling Service</h5>
+            </div>
+            <div class="card-body">
+                @if (lowestSaleDate.HasValue)
+                {
+                    <p>Date: 15-Feb-2024 to 21-May-2024</p>
+                    <p>Service: @ViewBag.LowestSale.Service</p>
+                    <p>Total Sales: @ViewBag.LowestSale.TotalSales.ToString("C")</p>
+                }
+                else
+                {
+                    <p>No data available.</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<!-- Chart.js script -->
+<div style="width: 75%; margin: auto;">
+    <canvas id="salesChart"></canvas>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Service</th>
+            <th>Total Sales</th>
+            <th>Average Sales</th>
+            <th>Max Sale</th>
+            <th>Min Sale</th>
+            <th>Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Service</td>
+                <td>@item.TotalSales.ToString("C")</td>
+                <td>@item.AverageSales.ToString("0.00")</td>
+                <td>@item.MaxSale.ToString("C")</td>
+                <td>@item.MinSale.ToString("C")</td>
+                <td>@item.Count</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    <a asp-action="Index">Back to Sales Report</a>
+</p>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var services = @Html.Raw(Json.Serialize(Model.Select(x => x.Service)));
+        var totalSales = @Html.Raw(Json.Serialize(Model.Select(x => x.TotalSales)));
+
+        var ctx = document.getElementById('salesChart').getContext('2d');
+        var salesChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: services,
+                datasets: [{
+                    label: 'Total Sales per Service',
+                    data: totalSales,
+                    backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+}

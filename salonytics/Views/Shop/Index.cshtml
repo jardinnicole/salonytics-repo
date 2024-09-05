@@ -1,0 +1,54 @@
+﻿@model List<salonytics.Models.Entities.Inventory>
+
+@{
+    Layout = "_LandingLayout";
+    ViewData["Title"] = "Shop";
+}
+
+
+<div class="container">
+    <h1>Shop</h1>
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="https://lzd-img-global.slatic.net/g/p/3eeab65e98badc164fd69575cef2a0b2.jpg_720x720q80.jpg" alt="Item Image">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.ItemName</h5>
+                        <p class="card-text">@item.Description</p>
+                        <p class="card-text">Price: @item.Price</p>
+                        <form id="purchase-form-@item.Id" asp-action="Purchase" asp-controller="Shop" method="post">
+                            <input type="hidden" name="itemId" value="@item.Id" />
+                            <div class="form-group">
+                                <label for="quantity-@item.Id">Quantity:</label>
+                                <input type="number" id="quantity-@item.Id" name="quantity" class="form-control" value="1" min="1" required />
+                            </div>
+                            <button type="submit" class="btn btn-success">Purchase</button>
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+    }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+</style>

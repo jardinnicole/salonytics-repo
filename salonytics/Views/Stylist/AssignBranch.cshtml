@@ -1,0 +1,92 @@
+﻿@model salonytics.Models.StylistBranchAssignmentViewModel
+
+@{
+    ViewData["Title"] = "Assign Branch";
+}
+
+<h2>Assign Branch</h2>
+
+<form asp-action="AssignBranch" method="post">
+    <input type="hidden" asp-for="StylistId" />
+
+    <!-- Display general validation errors -->
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="StylistName"></label>
+        <input asp-for="StylistName" class="form-control" readonly />
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>From Branch</label>
+            <input type="text" class="form-control" value="@Model.FromBranchName" readonly />
+            <input asp-for="FromBranchId" type="hidden" value="@Model.FromBranchId" />
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="ToBranchId">To Branch</label>
+            <select asp-for="ToBranchId" class="form-control" asp-items="Model.Branches"></select>
+            <span asp-validation-for="ToBranchId" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Fare">Fare</label>
+        <input asp-for="Fare" class="form-control" readonly />
+        <span asp-validation-for="Fare" class="text-danger"></span>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label asp-for="FromDate">From Date</label>
+            <input asp-for="FromDate" class="form-control" type="date" />
+            <span asp-validation-for="FromDate" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="ToDate">To Date</label>
+            <input asp-for="ToDate" class="form-control" type="date" />
+            <span asp-validation-for="ToDate" class="text-danger"></span>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Assign</button>
+    <button type="button" class="btn btn-secondary" onclick="goBack()">Back</button>
+</form>
+
+@section Scripts {
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        $(document).ready(function () {
+            // Set today's date as the default for date pickers
+            var today = new Date().toISOString().split('T')[0];
+            $('input[type="date"]').val(today);
+
+            $('#ToBranchId').change(function () {
+                var fromBranchId = $('#FromBranchId').val();
+                var toBranchId = $('#ToBranchId').val();
+
+                if (fromBranchId && toBranchId) {
+                    console.log('FromBranchId:', fromBranchId);  // Debug log
+                    console.log('ToBranchId:', toBranchId);      // Debug log
+
+                    $.get('/Stylist/GetFare', { fromBranchId: fromBranchId, toBranchId: toBranchId })
+                        .done(function (data) {
+                            if (data === null || data === undefined) {
+                                $('#Fare').val('Fare not found');
+                            } else {
+                                console.log('Fare:', data);  // Debug log
+                                $('#Fare').val(data);
+                            }
+                        })
+                        .fail(function (jqXHR, textStatus, errorThrown) {
+                            console.error('Error fetching fare:', textStatus, errorThrown);  // Debug log
+                            $('#Fare').val('Error fetching fare');
+                        });
+                }
+            });
+        });
+    </script>
+}

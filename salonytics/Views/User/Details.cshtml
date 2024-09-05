@@ -1,0 +1,59 @@
+﻿@model salonytics.Models.CustomerDetailsViewModel
+
+@{
+    ViewData["Title"] = "Customer Details";
+}
+
+<h2>Customer Details</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <dl class="row">
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Customer.FirstName)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Customer.FirstName)</dd>
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Customer.LastName)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Customer.LastName)</dd>
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Customer.Address)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Customer.Address)</dd>
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Customer.ContactNumber)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Customer.ContactNumber)</dd>
+
+            <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Customer.Gender)</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Customer.Gender)</dd>
+        </dl>
+    </div>
+</div>
+
+<h3>Appointments</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Appointments[0].Service)</th>
+            <th>@Html.DisplayNameFor(model => model.Appointments[0].Branch)</th>
+            <th>@Html.DisplayNameFor(model => model.Appointments[0].Date)</th>
+            <th>@Html.DisplayNameFor(model => model.Appointments[0].StartTime)</th>
+            <th>@Html.DisplayNameFor(model => model.Appointments[0].Remarks)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var appointment in Model.Appointments)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => appointment.Service)</td>
+                <td>@Html.DisplayFor(modelItem => appointment.Branch)</td>
+                <td>@Html.DisplayFor(modelItem => appointment.Date)</td>
+                <td>@Html.DisplayFor(modelItem => appointment.StartTime)</td>
+                <td>@Html.DisplayFor(modelItem => appointment.Remarks)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}

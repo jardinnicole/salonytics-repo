@@ -1,0 +1,257 @@
+﻿@model IEnumerable<Salonytics.Models.Entities.Appointment>
+
+@{
+    Layout = "_UserDashboardLayout";
+    ViewData["Title"] = "My Appointments";
+}
+<style>
+    .text-red {
+        color: #721c24; /* Dark red color */
+        font-size: 0.875rem; /* Slightly smaller text */
+        margin-top: 10px;
+        display: block; /* Ensure the span behaves like a block element */
+    }
+
+    .btn-secondary {
+        cursor: not-allowed; /* Indicate that the button is not clickable */
+    }
+</style>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger mt-3">
+        <strong>Validation Errors:</strong>
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="container">
+        @if (Model == null || !Model.Any(a => a.AppointmentStatus != "Done"))
+        {
+            <div class="alert alert-info text-center mt-3" role="alert">
+                <i class="bi bi-calendar-x-fill"></i> You have no current appointments.
+            </div>
+        }
+        else
+        {
+            <div class="row">
+                @foreach (var appointment in Model.Where(a => a.AppointmentStatus != "Done"))
+                {
+                    var canCancel = User.IsInRole("User") && (appointment.Date - DateTime.UtcNow).TotalHours >= 24;
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <div class="card border-primary">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary"><i class="bi bi-calendar-event-fill"></i> Appointment ID: @appointment.AppointmentCode</h5>
+                                <p><strong>Status:</strong> <span class="badge bg-warning text-dark">@appointment.AppointmentStatus</span></p>
+                                <p><strong>Service:</strong> @appointment.Service.Name</p>
+                                <p><strong>Branch:</strong> @appointment.Branch?.BranchName</p>
+                                <p><strong>Stylist:</strong> @((appointment.Stylist != null ? appointment.Stylist.LastName + " " + appointment.Stylist.FirstName : "Not Assigned"))</p>
+                                <p><strong>Date:</strong> @appointment.Date.ToShortDateString()</p>
+                                <p><strong>Time:</strong> @appointment.StartTime.ToString(@"hh\:mm") - @appointment.EndTime?.ToString(@"hh\:mm")</p>
+                                <p><strong>Number of Heads:</strong> @appointment.NoOfHeads</p>
+                                @if (!string.IsNullOrEmpty(appointment.Remarks))
+                                {
+                                    <p><strong>Remarks:</strong> @appointment.Remarks</p>
+                                }
+                                <p><strong>Total Price:</strong> <span class="text-success">@appointment.TotalPrice.ToString("C")</span></p>
+
+                                <!-- Edit and Cancel Appointment Forms -->
+                                <div class="mb-3">
+                                    @if (canCancel)
+                                    {
+                                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#cancelModal-@appointment.AppointmentId">
+                                            <i class="bi bi-x-circle"></i> Cancel Appointment
+                                        </button>
+                                    }
+                                    else
+                                    {
+                                        <button type="button" class="btn btn-secondary" disabled>
+                                            <i class="bi bi-x-circle"></i> Cancel Appointment
+                                        </button>
+                                        <span class="text-red">Cancelling appointments less than 24 hours away is not allowed as per our T&Cs. Please contact us directly for assistance.</span>
+                                    }
+                                </div>
+
+                                <!-- Cancel Appointment Modal -->
+                                <div class="modal fade" id="cancelModal-@appointment.AppointmentId" tabindex="-1" role="dialog" aria-labelledby="cancelModalLabel-@appointment.AppointmentId" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="cancelModalLabel-@appointment.AppointmentId">Cancel Appointment</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Are you sure you want to cancel this appointment?
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <form asp-action="Cancel" asp-controller="Appointment" method="post">
+                                                    <input type="hidden" name="appointmentId" value="@appointment.AppointmentId" />
+                                                    <button type="submit" class="btn btn-danger">Cancel Appointment</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+
+        @if (Model != null && Model.Any(a => a.AppointmentStatus == "Done"))
+        {
+            <div class="container mt-5">
+                <h2 class="text-center text-secondary"><i class="bi bi-hand-thumbs-up"></i> Rate and Tip Stylists</h2>
+                <div class="row mt-4">
+                    @foreach (var appointment in Model.Where(a => a.AppointmentStatus == "Done"))
+                    {
+                        <div class="col-12 col-md-6 col-lg-4 mb-3">
+                            <div class="card border-success">
+                                <div class="card-body">
+                                    <h5 class="card-title text-success"><i class="bi bi-award-fill"></i> Rate and Tip for Appointment ID: @appointment.AppointmentId</h5>
+                                    <p><strong>Stylist:</strong> @((appointment.Stylist != null ? appointment.Stylist.LastName + " " + appointment.Stylist.FirstName : "Not Assigned"))</p>
+                                    <p><strong>Date:</strong> @appointment.Date.ToShortDateString()</p>
+                                    <p><strong>Time:</strong> @appointment.StartTime.ToString(@"hh\:mm") - @appointment.EndTime?.ToString(@"hh\:mm")</p>
+                                    <p><strong>Service:</strong> @appointment.Service.Name</p>
+                                    <p><strong>Total Price:</strong> <span class="text-success">@appointment.TotalPrice.ToString("C")</span></p>
+
+                                    <!-- Rating Form -->
+                                    <form id="ratingForm-@appointment.AppointmentId" class="ratingForm" data-appointment-id="@appointment.AppointmentId">
+                                        <input type="hidden" name="appointmentId" value="@appointment.AppointmentId" />
+                                        <!-- Star Rating -->
+                                        <div class="rating mb-3">
+                                            <label for="star5-@appointment.AppointmentId" title="5 stars">
+                                                <input type="radio" id="star5-@appointment.AppointmentId" name="rating" value="5" />
+                                                <span class="fa fa-star text-warning"></span>
+                                            </label>
+                                            <label for="star4-@appointment.AppointmentId" title="4 stars">
+                                                <input type="radio" id="star4-@appointment.AppointmentId" name="rating" value="4" />
+                                                <span class="fa fa-star text-warning"></span>
+                                            </label>
+                                            <label for="star3-@appointment.AppointmentId" title="3 stars">
+                                                <input type="radio" id="star3-@appointment.AppointmentId" name="rating" value="3" />
+                                                <span class="fa fa-star text-warning"></span>
+                                            </label>
+                                            <label for="star2-@appointment.AppointmentId" title="2 stars">
+                                                <input type="radio" id="star2-@appointment.AppointmentId" name="rating" value="2" />
+                                                <span class="fa fa-star text-warning"></span>
+                                            </label>
+                                            <label for="star1-@appointment.AppointmentId" title="1 star">
+                                                <input type="radio" id="star1-@appointment.AppointmentId" name="rating" value="1" />
+                                                <span class="fa fa-star text-warning"></span>
+                                            </label>
+                                        </div>
+                                    </form>
+
+                                    <!-- Tip Form -->
+                                    <form id="tipForm-@appointment.AppointmentId" class="tipForm" data-appointment-id="@appointment.AppointmentId" style="display: none;">
+                                        <input type="hidden" name="appointmentId" value="@appointment.AppointmentId" />
+                                        <!-- Tip Amount Checkbox -->
+                                        <div class="form-check mb-3">
+                                            <input class="form-check-input" type="checkbox" id="tipCheckbox-@appointment.AppointmentId" name="tipCheckbox" onchange="toggleTipAmount(@appointment.AppointmentId)">
+                                            <label class="form-check-label" for="tipCheckbox-@appointment.AppointmentId">
+                                                <i class="bi bi-cash"></i> Would you like to leave a tip?
+                                            </label>
+                                        </div>
+
+                                        <!-- Tip Amount Input -->
+                                        <div class="mb-3" id="tipAmountContainer-@appointment.AppointmentId" style="display: none;">
+                                            <label for="tipAmount-@appointment.AppointmentId"><i class="bi bi-currency-dollar"></i> Enter tip amount:</label>
+                                            <input type="number" class="form-control" name="tipAmount" id="tipAmount-@appointment.AppointmentId" min="0" />
+                                        </div>
+                                    </form>
+
+                                    <!-- Success Message -->
+                                    <div class="alert alert-success success-message mt-3" id="successMessage-@appointment.AppointmentId" style="display: none;">
+                                        <i class="bi bi-check-circle-fill"></i> Rating and tip submitted successfully!
+                                    </div>
+
+                                    <!-- Toggle between Rating and Tip Form -->
+                                    <div id="toggleButtons-@appointment.AppointmentId" class="btn-group mt-3" role="group">
+                                        <button type="button" class="btn btn-outline-primary" onclick="showRatingForm(@appointment.AppointmentId)">
+                                            <i class="bi bi-star"></i> Rate
+                                        </button>
+                                        <button type="button" class="btn btn-outline-success" onclick="showTipForm(@appointment.AppointmentId)">
+                                            <i class="bi bi-wallet2"></i> Leave Tip
+                                        </button>
+                                    </div>
+
+                                    <!-- Send Tip Button -->
+                                    <button type="button" class="btn btn-success mt-3 sendTipButton" onclick="sendTip(@appointment.AppointmentId)" style="display: none;">
+                                        <i class="bi bi-send"></i> Send Tip
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function showRatingForm(appointmentId) {
+            document.getElementById(`ratingForm-${appointmentId}`).style.display = 'block';
+            document.getElementById(`tipForm-${appointmentId}`).style.display = 'none';
+            document.getElementById(`toggleButtons-${appointmentId}`).style.display = 'block';
+            document.getElementById(`successMessage-${appointmentId}`).style.display = 'none';
+        }
+
+        function showTipForm(appointmentId) {
+            document.getElementById(`ratingForm-${appointmentId}`).style.display = 'none';
+            document.getElementById(`tipForm-${appointmentId}`).style.display = 'block';
+            document.getElementById(`toggleButtons-${appointmentId}`).style.display = 'none';
+            document.getElementById(`successMessage-${appointmentId}`).style.display = 'none';
+        }
+
+        function toggleTipAmount(appointmentId) {
+            const tipCheckbox = document.getElementById(`tipCheckbox-${appointmentId}`);
+            const tipAmountContainer = document.getElementById(`tipAmountContainer-${appointmentId}`);
+            const sendTipButton = document.querySelector(`.sendTipButton[onclick="sendTip(${appointmentId})"]`);
+
+            if (tipCheckbox.checked) {
+                tipAmountContainer.style.display = 'block';
+                sendTipButton.style.display = 'block';
+            } else {
+                tipAmountContainer.style.display = 'none';
+                sendTipButton.style.display = 'none';
+            }
+        }
+
+        function sendTip(appointmentId) {
+            // Submit rating and tip form via AJAX here, if applicable
+
+            // Display success message
+            document.getElementById(`successMessage-${appointmentId}`).style.display = 'block';
+            document.getElementById(`ratingForm-${appointmentId}`).style.display = 'none';
+            document.getElementById(`tipForm-${appointmentId}`).style.display = 'none';
+        }
+
+        $(document).ready(function () {
+            $('.btn-secondary').hover(function (event) {
+                var tooltipText = $(this).attr('data-label');
+                var tooltip = $('#tooltip');
+                tooltip.text(tooltipText);
+                tooltip.css({
+                    top: event.pageY + 10, // Position below the cursor
+                    left: event.pageX + 10 // Position to the right of the cursor
+                });
+                tooltip.show();
+            }, function () {
+                $('#tooltip').hide();
+            });
+        });
+    </script>
+}

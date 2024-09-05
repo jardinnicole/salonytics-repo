@@ -1,0 +1,55 @@
+﻿@model List<salonytics.Models.Entities.HomeServiceAvailability>
+
+@using System.Linq;
+
+
+
+@{
+    ViewData["Title"] = "Book Home Service";
+}
+
+<div class="container mt-5">
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    <h2 class="text-center">Available Dates for Home Service</h2>
+
+    @if (!Model.Any())
+    {
+        <p>No available dates for home service in the next 30 days.</p>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var availability in Model)
+            {
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Date: @availability.Date.ToShortDateString()</h5>
+                            <p><strong>Stylist:</strong> @((availability.Stylist != null ? availability.Stylist.LastName + " " + availability.Stylist.FirstName : "Not Assigned"))</p>
+
+                            <!-- Booking Form -->
+                            <form asp-action="BookAppointment" asp-controller="HomeService" method="post">
+                                <input type="hidden" name="Date" value="@availability.Date.ToString("yyyy-MM-dd")" />
+                                <input type="hidden" name="StylistId" value="@availability.StylistId" />
+                                <button type="submit" class="btn btn-primary">Book Now</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

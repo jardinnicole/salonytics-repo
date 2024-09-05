@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+container {
+    font-family: 'Inter', sans-serif;
+}
+/* Style the navbar brand */
+.navbar-brand {
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+    padding-right: 15px;
+    margin-left: 50px;
+    padding-left: 10px;
+    z-index: 1001;
+    color: white; /* Change text color to white */
+}
+
+/* Apply styles to the sidebar */
+.sidebar {
+    background: #0D1117;
+    transition: all .5s;
+    max-width: 1000px;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    z-index: 5;
+}
+
+    .sidebar.collapsed {
+        max-width: 0;
+        overflow: hidden;
+        border-right: 0;
+    }
+
+/* Apply styles to the content */
+.content {
+    position: absolute;
+    z-index: 6;
+}
+
+    .content button {
+        margin: 10px;
+        border: none;
+        border-radius: 2px;
+        background-color: #19181c;
+    }
+
+/* Apply styles to the header */
+a {
+    transition: background 0.2s, color 0.2s;
+    font: white;
+}
+
+    a:hover,
+    a:focus {
+        text-decoration: none;
+    }
+
+main[role="main"] {
+    width: 150%;
+    margin-left: -25%;
+    margin-top: -40px;
+    font-style: "Poppins";
+}
+
+.list {
+    list-style: none;
+    padding: 5px 0;
+}
+
+    .list li {
+        margin: 5px;
+        padding: 5px 35px;
+    }
+
+        .list li:hover {
+            background-color: #eb6060;
+        }
+
+    .list a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+.btn-primary {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.btn-secondary {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.button-container {
+    display: relative;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+table {
+    border-spacing: 10px; /* Adjust the value to set the desired space */
+}
+
+    table td,
+    table th {
+        padding: 8px;
+    }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #19181c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Apply styles to the chart container */
+.chart-container {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 45%;
+    height: 350px;
+}
+
+/* Apply styles to the chart */
+.chart {
+    width: 100%;
+    height: 80%;
+}
+
+/* Apply styles to the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+/* Apply styles to the grid item */
+.grid-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Apply styles to the form */
+form {
+    max-width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Apply styles to buttons */
+.btn-primary,
+.btn-secondary {
+    margin-top: 10px;
+    font-size: 14px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Apply styles to labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Apply styles to input fields */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Apply styles to tables */
+table {
+    border-spacing: 10px;
+}
+
+    table td,
+    table th {
+        padding: 8px;
+    }
+
+/* Apply styles to the footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #19181c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Apply styles to the navbar toggler */
+.navbar-toggler {
+    border-color: #ffffff;
+}
+
+/* Apply styles to the service card */
+.service-card {
+    height: 100%;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Apply styles to odd branch list items */
+.branch-list li:nth-child(odd) {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Apply styles to carousel items */
+.carousel-item .card {
+    width: 300px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .carousel-item .card {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-img {
+    filter: brightness(70%);
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* Add translucent background */
+    padding: 15px; /* Add padding for better visibility */
+}
+
+
+    .carousel-caption h3 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+/* Apply box shadow to the navbar */
+.navbar {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}

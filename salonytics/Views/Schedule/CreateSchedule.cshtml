@@ -1,0 +1,93 @@
+﻿@model salonytics.Models.StylistScheduleViewModel
+
+<h2>Assign Stylist Schedule</h2>
+
+<form asp-action="CreateSchedule" method="post">
+    <div class="form-group">
+        <input type="hidden" asp-for="StylistId" />
+
+        <label asp-for="StylistId">Stylist: </label>
+        <input asp-for="StylistId" class="form-control" />
+        <span asp-validation-for="StylistId" class="text-danger"></span>
+    </div>
+
+    <h3>Working Hours</h3>
+    <div class="row">
+        @for (int i = 0; i < Model.DaySchedules.Count; i++)
+        {
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="DaySchedules[i].IsWorking" class="control-label">@Model.DaySchedules[i].DayOfWeek.ToString()</label>
+                    <input asp-for="DaySchedules[i].IsWorking" class="form-control" />
+                    <span asp-validation-for="DaySchedules[i].IsWorking" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DaySchedules[i].StartTimeString" class="control-label">Start Time:</label>
+                    <input asp-for="DaySchedules[i].StartTimeString" class="form-control" type="time"
+                           disabled="@(Model.DaySchedules[i].IsRestDay ? "disabled" : null)"
+                           value="@(Model.DaySchedules[i].StartTimeString)" />
+                    <span asp-validation-for="DaySchedules[i].StartTimeString" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DaySchedules[i].EndTimeString" class="control-label">End Time:</label>
+                    <input asp-for="DaySchedules[i].EndTimeString" class="form-control" type="time"
+                           disabled="@(Model.DaySchedules[i].IsRestDay ? "disabled" : null)"
+                           value="@(Model.DaySchedules[i].EndTimeString)" />
+                    <span asp-validation-for="DaySchedules[i].EndTimeString" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Rest Day:</label>
+                    <input type="checkbox" asp-for="DaySchedules[i].IsRestDay" class="form-check-input" data-index="@i" />
+                    <span asp-validation-for="DaySchedules[i].IsRestDay" class="text-danger"></span>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="form-group">
+        <div class="form-check">
+            <input class="form-check-input" asp-for="CopyToAllDays" />
+            <label class="form-check-label" asp-for="CopyToAllDays">Copy to all days</label>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Select a day to copy the schedule from:</label>
+        <select asp-for="SelectedDayIndex" class="form-control">
+            @for (int i = 0; i < Model.DaySchedules.Count; i++)
+            {
+                <option value="@i">@Model.DaySchedules[i].DayOfWeek.ToString()</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Save Schedule</button>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#CopyToAllDays').change(function () {
+                var isChecked = $(this).is(":checked");
+                if (isChecked) {
+                    var selectedDayIndex = $('#SelectedDayIndex').val();
+                    var startTime = $('#DaySchedules_' + selectedDayIndex + '__StartTimeString').val();
+                    var endTime = $('#DaySchedules_' + selectedDayIndex + '__EndTimeString').val();
+                    var isWorking = $('#DaySchedules_' + selectedDayIndex + '__IsWorking').is(":checked");
+                    var isRestDay = $('#DaySchedules_' + selectedDayIndex + '__IsRestDay').is(":checked");
+
+                    for (var i = 0; i < @Model.DaySchedules.Count; i++) {
+                        if (i != selectedDayIndex) {
+                            $('#DaySchedules_' + i + '__StartTimeString').val(startTime);
+                            $('#DaySchedules_' + i + '__EndTimeString').val(endTime);
+                            $('#DaySchedules_' + i + '__IsWorking').prop('checked', isWorking);
+                            $('#DaySchedules_' + i + '__IsRestDay').prop('checked', isRestDay);
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+}

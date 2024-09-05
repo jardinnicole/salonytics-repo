@@ -1,0 +1,81 @@
+﻿@model Salonytics.Models.Entities.Appointment
+
+@{
+    ViewData["Title"] = "Confirm Tip Payment";
+}
+
+<div class="container">
+    <h2>Confirm Tip Payment</h2>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Appointment Details</h3>
+                    <p>Service: @Model.Service.Name</p>
+                    <p>Date: @Model.Date.ToShortDateString()</p>
+                    <p>Time: @Model.StartTime.ToString(@"hh\:mm") - @Model.EndTime?.ToString(@"hh\:mm")</p>
+                    <p>Total Price: @Model.TotalPrice.ToString("C")</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- PayPal Form Card (2/3 width) -->
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Pay Tip with PayPal</h3>
+                    <div id="paypal-button-container"></div>
+                    <form id="payment-form" asp-action="ConfirmTipPayment" asp-controller="Dashboard" method="post" style="display:none;">
+                        <input type="hidden" name="appointmentId" value="@Model.AppointmentId" />
+                        <input type="hidden" id="transactionId" name="transactionId" value="" />
+                        <input type="hidden" id="payerId" name="payerId" value="" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://www.paypal.com/sdk/js?client-id=AVRblYaeN8hvFHv3ziroGSRMxfKZ0sNqpYok-4OWkiJ5MUWhh20BcAKqFXC6K8XFGkf0jCQ5sHRHWlQj"></script>
+    <script>
+        $(document).ready(function () {
+            var appointmentId = '@Model.AppointmentId';
+            var totalPrice = parseFloat('@Model.TotalPrice');
+
+            paypal.Buttons({
+                createOrder: function (data, actions) {
+                    return actions.order.create({
+                        purchase_units: [{
+                            amount: {
+                                value: totalPrice.toFixed(2)
+                            }
+                        }]
+                    });
+                },
+                onApprove: function (data, actions) {
+                    return actions.order.capture().then(function (details) {
+                        alert('Transaction completed by ' + details.payer.name.given_name);
+                        document.getElementById('transactionId').value = details.id;
+                        document.getElementById('payerId').value = details.payer.payer_id;
+                        document.getElementById('payment-form').submit();
+                    });
+                }
+            }).render('#paypal-button-container');
+        });
+    </script>
+}
+
+@section Styles {
+    <style>
+        .card {
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+    </style>
+}

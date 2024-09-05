@@ -1,0 +1,204 @@
+﻿@model Salonytics.Models.AddNewAppointmentViewModel
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Book Appointment";
+    if (SignInManager.IsSignedIn(User))
+    {
+        Layout = "_Layout";
+    }
+    else
+    {
+        Layout = "_FrontLayout";
+    }
+}
+
+<div class="form-container">
+    <form asp-action="BookAppointment" method="post">
+        <h2>@ViewData["Title"]</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="FullName">Full Name:</label>
+                    <input asp-for="FullName" class="form-control" required />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ContactNo">Contact Number:</label>
+                    <input asp-for="ContactNo" class="form-control" required />
+                    <span asp-validation-for="ContactNo" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email">Email:</label>
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("User"))
+                    {
+                        <input asp-for="Email" class="form-control" readonly />
+                    }
+                    else
+                    {
+                        <input asp-for="Email" class="form-control" required />
+                    }
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ServiceId">Service:</label>
+                    <select asp-for="ServiceId" class="form-control" required onchange="updateServicePrice()">
+                        <option value="">Select Service</option>
+                        @foreach (var service in ViewBag.Services)
+                        {
+                            <option value="@service.ServiceId" data-price="@service.Price">@service.Name</option>
+                        }
+                    </select>
+                    <span asp-validation-for="ServiceId" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="BranchId">Branch:</label>
+                    <select asp-for="BranchId" class="form-control" required>
+                        <option value="">Select Branch</option>
+                        @foreach (var branch in ViewBag.Branches)
+                        {
+                            <option value="@branch.BranchId">@branch.BranchName</option>
+                        }
+                    </select>
+                    <span asp-validation-for="BranchId" class="text-danger"></span>
+                </div>
+                @if (User.IsInRole("User"))
+                {
+                    <div class="form-group">
+                        <label asp-for="StylistId">Choose Stylist:</label>
+                        <select asp-for="StylistId" class="form-control" id="StylistId"></select>
+                        <span asp-validation-for="StylistId" class="text-danger"></span>
+                    </div>
+                }
+                <div class="form-group">
+                    <label asp-for="NoOfHeads">Number of Heads:</label>
+                    <input asp-for="NoOfHeads" type="number" class="form-control" required onchange="updateTotalPrice()" />
+                    <span asp-validation-for="NoOfHeads" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Date">Date:</label>
+                    <input asp-for="Date" class="form-control" type="date" id="appointmentDate" />
+                    <span asp-validation-for="Date" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="StartTime">Start Time:</label>
+                    <select asp-for="StartTime" class="form-control" id="timeSlots">
+                        <option>Select a slot</option>
+                    </select>
+                    <span asp-validation-for="StartTime" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Remarks">Remarks:</label>
+                    <textarea asp-for="Remarks" class="form-control"></textarea>
+                    <span asp-validation-for="Remarks" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="TotalPrice">Total Price:</label>
+                    <input asp-for="TotalPrice" class="form-control" readonly />
+                    <span asp-validation-for="TotalPrice" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Book Appointment</button>
+        </div>
+
+        <div asp-validation-summary="All" class="text-danger"></div>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#BranchId').change(function () {
+                var branchId = $(this).val();
+                $.ajax({
+                    url: '/Appointment/GetStylists',
+                    method: 'GET',
+                    data: { BranchId: branchId },
+                    success: function (data) {
+                        var stylistDropdown = $('#StylistId');
+                        stylistDropdown.empty();
+                        stylistDropdown.append($('<option>', { value: '', text: 'Select Stylist' }));
+                        $.each(data, function (index, stylist) {
+                            stylistDropdown.append($('<option>', {
+                                value: stylist.stylistId,
+                                text: stylist.name
+                            }));
+                        });
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(error);
+                    }
+                });
+            });
+
+            $('#btnGetSlots').click(function () {
+                var stylistId = $('#StylistId').val();
+                var date = $('#appointmentDate').val();
+
+                if (stylistId && date) {
+                    $.ajax({
+                        url: '@Url.Action("GetStylistSlots", "Appointment")',
+                        type: 'GET',
+                        data: { stylistId: stylistId, date: date },
+                        success: function (response) {
+                            var slotsHtml = '<label>Select Time Slot:</label><select class="form-control" id="timeSlot" name="timeSlot">';
+                            $.each(response.availableSlots, function (index, slot) {
+                                slotsHtml += '<option value="' + slot + '">' + slot.substring(11, 16) + '</option>';
+                            });
+                            slotsHtml += '</select><button type="submit" class="btn btn-success" style="margin-top:10px;">Book Appointment</button>';
+                            $('#slotsContainer').html(slotsHtml);
+                        },
+                        error: function (xhr, status, error) {
+                            console.error('Error:', error);
+                            $('#slotsContainer').html('<p>Error fetching available slots. Please try again later.</p>');
+                        }
+                    });
+                } else {
+                    alert('Please select a stylist and a date.');
+                }
+            });
+        });
+
+
+        function updateServicePrice() {
+            var service = document.getElementById("ServiceId");
+            var selectedOption = service.options[service.selectedIndex];
+            var price = selectedOption.getAttribute("data-price");
+            document.getElementById("TotalPrice").value = price;
+        }
+
+        function updateTotalPrice() {
+            var service = document.getElementById("ServiceId");
+            var selectedOption = service.options[service.selectedIndex];
+            var price = selectedOption.getAttribute("data-price");
+            var noOfHeads = document.getElementById("NoOfHeads").value;
+            var totalPrice = price * noOfHeads;
+            document.getElementById("TotalPrice").value = totalPrice.toFixed(2);
+        }
+    </script>
+
+    <style>
+        .form-container {
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        .available-slot {
+            background-color: #c8e6c9; /* Light green */
+        }
+
+        .booked-slot {
+            background-color: #ffcdd2; /* Light red */
+        }
+    </style>
+}

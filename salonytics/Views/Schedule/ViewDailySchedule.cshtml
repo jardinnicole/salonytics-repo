@@ -1,0 +1,23 @@
+﻿@model salonytics.Models.ViewDailyScheduleViewModel
+
+<h2>View Daily Schedule</h2>
+
+<div class="card">
+    <div class="card-header">
+        @Model.DayOfWeek.ToString()
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Stylist Id: @Model.StylistId</h5>
+        @if (Model.Schedule.IsWorking)
+        {
+            <p class="card-text">Start Time: @Model.Schedule.StartTime</p>
+            <p class="card-text">End Time: @Model.Schedule.EndTime</p>
+        }
+        else
+        {
+            <p class="card-text">Rest Day</p>
+        }
+    </div>
+</div>
+
+<a asp-action="ViewSchedule" asp-controller="Schedule" asp-route-stylistId="@Model.StylistId" class="btn btn-primary mt-3">Back to Weekly Schedule</a>

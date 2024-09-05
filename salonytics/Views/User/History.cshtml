@@ -1,0 +1,50 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_UserDashboardLayout";
+    ViewData["Title"] = "Appointments History";
+
+
+}
+@model IEnumerable<Salonytics.Models.Entities.Appointment>
+
+@{
+    ViewData["Title"] = "Past Appointments";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center">Past Appointments</h2>
+
+    @if (Model == null || !Model.Any())
+    {
+        <p>No past appointments found.</p>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var appointment in Model)
+            {
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Appointment ID: @appointment.AppointmentId</h5>
+                            <p><strong>Status:</strong> @appointment.AppointmentStatus</p>
+                            <p><strong>Service:</strong> @appointment.Service.Name</p>
+                            <p><strong>Branch:</strong> @appointment.Branch?.BranchName</p>
+                            <p><strong>Stylist:</strong> @((appointment.Stylist != null ? appointment.Stylist.LastName + " " + appointment.Stylist.FirstName : "Not Assigned"))</p>
+                            <p><strong>Date:</strong> @appointment.Date.ToShortDateString()</p>
+                            <p><strong>Time:</strong> @appointment.StartTime.ToString(@"hh\:mm") - @appointment.EndTime?.ToString(@"hh\:mm")</p>
+                            <p><strong>Number of Heads:</strong> @appointment.NoOfHeads</p>
+                            @if (!string.IsNullOrEmpty(appointment.Remarks))
+                            {
+                                <p><strong>Remarks:</strong> @appointment.Remarks</p>
+                            }
+                            <p><strong>Total Price:</strong> @appointment.TotalPrice.ToString("C")</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

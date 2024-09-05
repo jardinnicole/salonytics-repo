@@ -1,0 +1,3265 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\salonytics.bundle.scp.css",
+      "PackagePath": "staticwebassets\\salonytics.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\TransactionPrint.css",
+      "PackagePath": "staticwebassets\\css\\TransactionPrint.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\css\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\default-skin.css",
+      "PackagePath": "staticwebassets\\css\\default-skin.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\icomoon.css",
+      "PackagePath": "staticwebassets\\css\\icomoon.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\jquery.mCustomScrollbar.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.mCustomScrollbar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\landing.css",
+      "PackagePath": "staticwebassets\\css\\landing.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\meanmenu.css",
+      "PackagePath": "staticwebassets\\css\\meanmenu.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\paper-dashboard.css",
+      "PackagePath": "staticwebassets\\css\\paper-dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\paper-dashboard.css.map",
+      "PackagePath": "staticwebassets\\css\\paper-dashboard.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\paper-dashboard.min.css",
+      "PackagePath": "staticwebassets\\css\\paper-dashboard.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\sample.css",
+      "PackagePath": "staticwebassets\\css\\sample.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\user_design.css",
+      "PackagePath": "staticwebassets\\css\\user_design.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\fonts\\nucleo-icons.eot",
+      "PackagePath": "staticwebassets\\fonts\\nucleo-icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\fonts\\nucleo-icons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\nucleo-icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\fonts\\nucleo-icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\nucleo-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\fonts\\nucleo-icons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\nucleo-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\BA1.jpg",
+      "PackagePath": "staticwebassets\\images\\BA1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\BA2.jpg",
+      "PackagePath": "staticwebassets\\images\\BA2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\BA3.jpg",
+      "PackagePath": "staticwebassets\\images\\BA3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\BA4.jpg",
+      "PackagePath": "staticwebassets\\images\\BA4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\Cysteine Diamond Brazilian NS.jpg",
+      "PackagePath": "staticwebassets\\images\\Cysteine Diamond Brazilian NS.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\Cysteine Diamond Brazilian.jpg",
+      "PackagePath": "staticwebassets\\images\\Cysteine Diamond Brazilian.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\Diamond Brazilian w color.jpg",
+      "PackagePath": "staticwebassets\\images\\Diamond Brazilian w color.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\Hombre Balayage.jpg",
+      "PackagePath": "staticwebassets\\images\\Hombre Balayage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\Keratin-Keracollagen.png",
+      "PackagePath": "staticwebassets\\images\\Keratin-Keracollagen.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\Organic Color.jpg",
+      "PackagePath": "staticwebassets\\images\\Organic Color.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\Organic Diamond Brazilian w Organic color.jpg",
+      "PackagePath": "staticwebassets\\images\\Organic Diamond Brazilian w Organic color.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\Organic Highlights Brazilian.jpg",
+      "PackagePath": "staticwebassets\\images\\Organic Highlights Brazilian.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\Organic Highlights Color.jpg",
+      "PackagePath": "staticwebassets\\images\\Organic Highlights Color.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\Organic Highlights.jpg",
+      "PackagePath": "staticwebassets\\images\\Organic Highlights.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\Protein Balayage Highlights.jpg",
+      "PackagePath": "staticwebassets\\images\\Protein Balayage Highlights.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\Rebond.jpg",
+      "PackagePath": "staticwebassets\\images\\Rebond.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\Rebond_Brazilian.jpg",
+      "PackagePath": "staticwebassets\\images\\Rebond_Brazilian.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\actual_vs_predicted_sales.png",
+      "PackagePath": "staticwebassets\\images\\actual_vs_predicted_sales.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\average_services_per_day.png",
+      "PackagePath": "staticwebassets\\images\\average_services_per_day.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\background.png",
+      "PackagePath": "staticwebassets\\images\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\balayage organic brazillian.png",
+      "PackagePath": "staticwebassets\\images\\balayage organic brazillian.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\banner3.png",
+      "PackagePath": "staticwebassets\\images\\banner3.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\before_after.png",
+      "PackagePath": "staticwebassets\\images\\before_after.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\beforeafterbg.jpg",
+      "PackagePath": "staticwebassets\\images\\beforeafterbg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\bellicon.png",
+      "PackagePath": "staticwebassets\\images\\bellicon.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\bellnotificon.png",
+      "PackagePath": "staticwebassets\\images\\bellnotificon.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\calendaricon.png",
+      "PackagePath": "staticwebassets\\images\\calendaricon.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\count_appointments_by_branch.png",
+      "PackagePath": "staticwebassets\\images\\count_appointments_by_branch.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\count_appointments_by_date.png",
+      "PackagePath": "staticwebassets\\images\\count_appointments_by_date.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\count_appointments_by_gender.png",
+      "PackagePath": "staticwebassets\\images\\count_appointments_by_gender.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\diamond_brazilian.png",
+      "PackagePath": "staticwebassets\\images\\diamond_brazilian.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\faqs.png",
+      "PackagePath": "staticwebassets\\images\\faqs.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\footerbackground.png",
+      "PackagePath": "staticwebassets\\images\\footerbackground.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\footerlogo.png",
+      "PackagePath": "staticwebassets\\images\\footerlogo.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\footerslogan.png",
+      "PackagePath": "staticwebassets\\images\\footerslogan.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\hair_color.png",
+      "PackagePath": "staticwebassets\\images\\hair_color.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\hair_cut.png",
+      "PackagePath": "staticwebassets\\images\\hair_cut.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\haircut.jpg",
+      "PackagePath": "staticwebassets\\images\\haircut.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\header.png",
+      "PackagePath": "staticwebassets\\images\\header.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\header_banner.png",
+      "PackagePath": "staticwebassets\\images\\header_banner.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\highlights.png",
+      "PackagePath": "staticwebassets\\images\\highlights.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\historyicon.png",
+      "PackagePath": "staticwebassets\\images\\historyicon.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\icon.svg",
+      "PackagePath": "staticwebassets\\images\\icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\icure.jpg",
+      "PackagePath": "staticwebassets\\images\\icure.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\locicon.png",
+      "PackagePath": "staticwebassets\\images\\locicon.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\logolight.png",
+      "PackagePath": "staticwebassets\\images\\logolight.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\logosalon.png",
+      "PackagePath": "staticwebassets\\images\\logosalon.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\organic color cysteine brazillian.png",
+      "PackagePath": "staticwebassets\\images\\organic color cysteine brazillian.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\other_faqs.png",
+      "PackagePath": "staticwebassets\\images\\other_faqs.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\our_branches.png",
+      "PackagePath": "staticwebassets\\images\\our_branches.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\our_products.png",
+      "PackagePath": "staticwebassets\\images\\our_products.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\our_services.png",
+      "PackagePath": "staticwebassets\\images\\our_services.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\packages.png",
+      "PackagePath": "staticwebassets\\images\\packages.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\productbg.jpg",
+      "PackagePath": "staticwebassets\\images\\productbg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\protein rebond.png",
+      "PackagePath": "staticwebassets\\images\\protein rebond.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\rebond.png",
+      "PackagePath": "staticwebassets\\images\\rebond.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\searchicon.png",
+      "PackagePath": "staticwebassets\\images\\searchicon.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\images\\usericon.png",
+      "PackagePath": "staticwebassets\\images\\usericon.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\chart.js",
+      "PackagePath": "staticwebassets\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\core\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\jquery-3.0.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.0.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\modernizer.js",
+      "PackagePath": "staticwebassets\\js\\modernizer.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\paper-dashboard.js",
+      "PackagePath": "staticwebassets\\js\\paper-dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\paper-dashboard.js.map",
+      "PackagePath": "staticwebassets\\js\\paper-dashboard.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\paper-dashboard.min.js",
+      "PackagePath": "staticwebassets\\js\\paper-dashboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\plugins\\bootstrap-notify.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap-notify.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\plugins\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\chartjs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\plugins\\perfect-scrollbar.jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\perfect-scrollbar.jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\assets\\coloredbg.png",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\coloredbg.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\assets\\gridtile.png",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\gridtile.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\assets\\gridtile_3x3.png",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\gridtile_3x3.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\assets\\gridtile_3x3_white.png",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\gridtile_3x3_white.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\assets\\gridtile_white.png",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\gridtile_white.png"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\assets\\loader.gif",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\css\\closedhand.html",
+      "PackagePath": "staticwebassets\\js\\revolution\\css\\closedhand.html"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\css\\layers.css",
+      "PackagePath": "staticwebassets\\js\\revolution\\css\\layers.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\css\\navigation.css",
+      "PackagePath": "staticwebassets\\js\\revolution\\css\\navigation.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\css\\openhand.html",
+      "PackagePath": "staticwebassets\\js\\revolution\\css\\openhand.html"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\css\\settings.css",
+      "PackagePath": "staticwebassets\\js\\revolution\\css\\settings.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\css\\pe-icon-7-stroke.css",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\css\\pe-icon-7-stroke.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.eot",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.eot"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.svg",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.ttf",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.woff",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.woff"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroked41d.eot",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroked41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\fonts\\revicons\\revicons90c6.eot",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\revicons\\revicons90c6.eot"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\fonts\\revicons\\revicons90c6.svg",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\revicons\\revicons90c6.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\fonts\\revicons\\revicons90c6.ttf",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\revicons\\revicons90c6.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\fonts\\revicons\\revicons90c6.woff",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\revicons\\revicons90c6.woff"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.actions.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.actions.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.migration.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.migration.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.navigation.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.navigation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.parallax.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.parallax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.video.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.video.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\js\\jquery.themepunch.revolution.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\jquery.themepunch.revolution.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\revolution\\js\\jquery.themepunch.tools.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\jquery.themepunch.tools.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\select2.js",
+      "PackagePath": "staticwebassets\\js\\select2.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\slider-setting.js",
+      "PackagePath": "staticwebassets\\js\\slider-setting.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\template.js",
+      "PackagePath": "staticwebassets\\js\\template.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\typeahead.js",
+      "PackagePath": "staticwebassets\\js\\typeahead.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\js\\user_script.js",
+      "PackagePath": "staticwebassets\\js\\user_script.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_alerts.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_alerts.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_animated-buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_animated-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_cards.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_checkboxes-radio.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_checkboxes-radio.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_footers.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_footers.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_inputs.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_inputs.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_misc.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_nucleo-outline.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_nucleo-outline.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_page-header.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_page-header.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_responsive.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_sidebar-and-main-panel.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_sidebar-and-main-panel.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\cards\\_card-chart.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-chart.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\cards\\_card-map.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-map.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\cards\\_card-plain.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-plain.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\cards\\_card-stats.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-stats.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\cards\\_card-user.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-user.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\mixins\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\mixins\\_inputs.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_inputs.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\mixins\\_page-header.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_page-header.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\mixins\\_transparency.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_transparency.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\mixins\\_vendor-prefixes.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_vendor-prefixes.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\plugins\\_plugin-animate-bootstrap-notify.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\plugins\\_plugin-animate-bootstrap-notify.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\plugins\\_plugin-perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\plugins\\_plugin-perfect-scrollbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\base\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\vendors\\base\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\base\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\vendors\\base\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\base\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\vendors\\base\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\feather\\feather.css",
+      "PackagePath": "staticwebassets\\vendors\\feather\\feather.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\feather\\fonts\\feather-webfont.eot",
+      "PackagePath": "staticwebassets\\vendors\\feather\\fonts\\feather-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\feather\\fonts\\feather-webfont.svg",
+      "PackagePath": "staticwebassets\\vendors\\feather\\fonts\\feather-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\feather\\fonts\\feather-webfont.ttf",
+      "PackagePath": "staticwebassets\\vendors\\feather\\fonts\\feather-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\feather\\fonts\\feather-webfont.woff",
+      "PackagePath": "staticwebassets\\vendors\\feather\\fonts\\feather-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\css\\flag-icon.min.css",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\css\\flag-icon.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ad.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ad.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ae.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ae.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\af.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\af.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ag.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ag.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ai.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ai.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\al.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\al.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\am.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\am.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ao.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ao.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\aq.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\aq.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ar.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ar.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\as.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\as.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\at.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\at.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\au.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\au.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\aw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\aw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ax.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ax.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\az.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\az.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ba.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ba.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\bb.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\bb.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\bd.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\bd.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\be.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\be.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\bf.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\bf.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\bg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\bg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\bh.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\bh.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\bi.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\bi.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\bj.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\bj.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\bl.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\bl.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\bm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\bm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\bn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\bn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\bo.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\bo.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\bq.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\bq.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\br.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\br.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\bs.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\bs.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\bt.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\bt.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\bv.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\bv.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\bw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\bw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\by.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\by.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\bz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\bz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ca.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ca.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\cc.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\cc.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\cd.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\cd.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\cf.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\cf.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\cg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\cg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ch.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ch.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ci.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ci.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ck.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ck.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\cl.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\cl.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\cm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\cm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\cn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\cn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\co.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\co.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\cr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\cr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\cu.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\cu.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\cv.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\cv.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\cw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\cw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\cx.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\cx.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\cy.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\cy.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\cz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\cz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\de.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\de.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\dj.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\dj.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\dk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\dk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\dm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\dm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\do.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\do.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\dz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\dz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ec.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ec.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ee.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ee.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\eg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\eg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\eh.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\eh.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\er.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\er.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\es-ct.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\es-ct.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\es.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\es.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\et.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\et.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\eu.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\eu.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\fi.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\fi.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\fj.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\fj.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\fk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\fk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\fm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\fm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\fo.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\fo.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\fr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\fr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ga.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ga.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gb-eng.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gb-eng.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gb-nir.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gb-nir.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gb-sct.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gb-sct.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gb-wls.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gb-wls.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gb.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gb.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gd.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gd.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ge.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ge.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gf.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gf.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gh.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gh.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gi.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gi.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gl.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gl.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gp.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gp.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gq.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gq.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gs.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gs.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gt.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gt.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gu.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gu.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\gy.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\gy.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\hk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\hk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\hm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\hm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\hn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\hn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\hr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\hr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ht.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ht.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\hu.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\hu.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\id.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\id.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ie.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ie.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\il.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\il.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\im.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\im.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\in.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\in.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\io.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\io.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\iq.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\iq.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ir.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ir.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\is.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\is.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\it.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\it.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\je.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\je.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\jm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\jm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\jo.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\jo.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\jp.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\jp.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ke.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ke.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\kg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\kg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\kh.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\kh.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ki.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ki.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\km.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\km.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\kn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\kn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\kp.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\kp.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\kr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\kr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\kw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\kw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ky.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ky.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\kz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\kz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\la.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\la.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\lb.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\lb.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\lc.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\lc.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\li.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\li.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\lk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\lk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\lr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\lr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ls.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ls.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\lt.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\lt.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\lu.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\lu.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\lv.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\lv.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ly.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ly.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ma.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ma.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\mc.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\mc.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\md.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\md.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\me.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\me.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\mf.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\mf.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\mg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\mg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\mh.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\mh.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\mk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\mk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ml.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ml.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\mm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\mm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\mn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\mn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\mo.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\mo.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\mp.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\mp.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\mq.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\mq.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\mr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\mr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ms.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ms.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\mt.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\mt.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\mu.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\mu.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\mv.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\mv.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\mw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\mw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\mx.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\mx.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\my.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\my.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\mz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\mz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\na.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\na.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\nc.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\nc.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ne.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ne.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\nf.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\nf.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ng.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ng.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ni.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ni.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\nl.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\nl.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\no.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\no.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\np.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\np.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\nr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\nr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\nu.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\nu.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\nz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\nz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\om.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\om.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\pa.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\pa.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\pe.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\pe.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\pf.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\pf.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\pg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\pg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ph.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ph.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\pk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\pk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\pl.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\pl.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\pm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\pm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\pn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\pn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\pr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\pr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ps.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ps.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\pt.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\pt.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\pw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\pw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\py.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\py.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\qa.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\qa.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\re.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\re.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ro.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ro.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\rs.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\rs.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ru.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ru.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\rw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\rw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\sa.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\sa.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\sb.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\sb.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\sc.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\sc.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\sd.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\sd.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\se.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\se.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\sg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\sg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\sh.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\sh.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\si.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\si.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\sj.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\sj.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\sk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\sk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\sl.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\sl.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\sm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\sm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\sn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\sn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\so.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\so.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\sr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\sr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ss.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ss.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\st.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\st.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\sv.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\sv.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\sx.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\sx.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\sy.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\sy.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\sz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\sz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\tc.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\tc.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\td.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\td.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\tf.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\tf.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\tg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\tg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\th.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\th.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\tj.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\tj.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\tk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\tk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\tl.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\tl.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\tm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\tm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\tn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\tn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\to.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\to.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\tr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\tr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\tt.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\tt.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\tv.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\tv.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\tw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\tw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\tz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\tz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ua.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ua.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ug.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ug.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\um.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\um.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\un.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\un.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\us.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\us.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\uy.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\uy.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\uz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\uz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\va.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\va.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\vc.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\vc.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ve.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ve.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\vg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\vg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\vi.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\vi.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\vn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\vn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\vu.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\vu.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\wf.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\wf.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ws.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ws.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\xk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\xk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\ye.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\ye.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\yt.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\yt.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\za.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\za.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\zm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\zm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\1x1\\zw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\1x1\\zw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ad.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ad.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ae.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ae.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\af.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\af.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ag.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ag.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ai.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ai.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\al.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\al.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\am.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\am.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ao.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ao.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\aq.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\aq.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ar.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ar.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\as.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\as.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\at.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\at.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\au.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\au.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\aw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\aw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ax.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ax.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\az.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\az.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ba.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ba.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\bb.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\bb.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\bd.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\bd.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\be.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\be.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\bf.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\bf.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\bg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\bg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\bh.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\bh.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\bi.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\bi.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\bj.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\bj.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\bl.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\bl.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\bm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\bm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\bn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\bn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\bo.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\bo.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\bq.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\bq.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\br.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\br.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\bs.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\bs.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\bt.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\bt.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\bv.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\bv.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\bw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\bw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\by.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\by.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\bz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\bz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ca.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ca.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\cc.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\cc.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\cd.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\cd.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\cf.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\cf.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\cg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\cg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ch.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ch.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ci.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ci.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ck.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ck.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\cl.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\cl.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\cm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\cm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\cn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\cn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\co.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\co.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\cr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\cr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\cu.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\cu.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\cv.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\cv.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\cw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\cw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\cx.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\cx.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\cy.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\cy.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\cz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\cz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\de.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\de.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\dj.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\dj.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\dk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\dk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\dm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\dm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\do.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\do.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\dz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\dz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ec.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ec.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ee.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ee.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\eg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\eg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\eh.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\eh.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\er.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\er.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\es-ct.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\es-ct.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\es.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\es.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\et.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\et.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\eu.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\eu.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\fi.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\fi.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\fj.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\fj.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\fk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\fk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\fm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\fm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\fo.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\fo.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\fr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\fr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ga.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ga.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gb-eng.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gb-eng.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gb-nir.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gb-nir.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gb-sct.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gb-sct.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gb-wls.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gb-wls.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gb.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gb.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gd.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gd.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ge.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ge.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gf.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gf.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gh.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gh.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gi.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gi.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gl.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gl.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gp.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gp.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gq.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gq.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gs.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gs.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gt.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gt.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gu.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gu.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\gy.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\gy.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\hk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\hk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\hm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\hm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\hn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\hn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\hr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\hr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ht.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ht.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\hu.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\hu.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\id.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\id.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ie.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ie.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\il.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\il.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\im.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\im.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\in.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\in.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\io.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\io.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\iq.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\iq.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ir.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ir.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\is.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\is.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\it.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\it.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\je.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\je.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\jm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\jm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\jo.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\jo.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\jp.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\jp.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ke.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ke.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\kg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\kg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\kh.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\kh.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ki.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ki.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\km.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\km.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\kn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\kn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\kp.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\kp.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\kr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\kr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\kw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\kw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ky.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ky.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\kz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\kz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\la.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\la.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\lb.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\lb.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\lc.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\lc.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\li.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\li.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\lk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\lk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\lr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\lr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ls.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ls.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\lt.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\lt.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\lu.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\lu.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\lv.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\lv.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ly.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ly.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ma.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ma.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\mc.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\mc.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\md.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\md.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\me.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\me.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\mf.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\mf.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\mg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\mg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\mh.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\mh.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\mk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\mk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ml.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ml.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\mm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\mm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\mn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\mn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\mo.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\mo.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\mp.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\mp.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\mq.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\mq.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\mr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\mr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ms.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ms.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\mt.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\mt.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\mu.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\mu.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\mv.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\mv.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\mw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\mw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\mx.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\mx.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\my.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\my.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\mz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\mz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\na.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\na.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\nc.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\nc.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ne.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ne.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\nf.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\nf.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ng.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ng.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ni.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ni.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\nl.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\nl.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\no.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\no.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\np.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\np.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\nr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\nr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\nu.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\nu.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\nz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\nz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\om.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\om.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\pa.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\pa.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\pe.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\pe.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\pf.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\pf.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\pg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\pg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ph.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ph.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\pk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\pk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\pl.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\pl.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\pm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\pm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\pn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\pn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\pr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\pr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ps.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ps.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\pt.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\pt.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\pw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\pw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\py.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\py.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\qa.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\qa.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\re.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\re.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ro.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ro.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\rs.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\rs.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ru.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ru.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\rw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\rw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\sa.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\sa.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\sb.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\sb.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\sc.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\sc.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\sd.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\sd.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\se.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\se.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\sg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\sg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\sh.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\sh.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\si.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\si.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\sj.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\sj.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\sk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\sk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\sl.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\sl.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\sm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\sm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\sn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\sn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\so.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\so.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\sr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\sr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ss.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ss.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\st.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\st.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\sv.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\sv.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\sx.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\sx.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\sy.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\sy.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\sz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\sz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\tc.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\tc.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\td.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\td.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\tf.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\tf.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\tg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\tg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\th.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\th.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\tj.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\tj.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\tk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\tk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\tl.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\tl.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\tm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\tm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\tn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\tn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\to.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\to.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\tr.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\tr.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\tt.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\tt.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\tv.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\tv.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\tw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\tw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\tz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\tz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ua.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ua.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ug.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ug.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\um.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\um.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\un.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\un.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\us.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\us.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\uy.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\uy.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\uz.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\uz.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\va.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\va.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\vc.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\vc.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ve.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ve.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\vg.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\vg.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\vi.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\vi.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\vn.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\vn.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\vu.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\vu.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\wf.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\wf.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ws.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ws.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\xk.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\xk.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\ye.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\ye.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\yt.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\yt.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\za.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\za.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\zm.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\zm.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\flag-icon-css\\flags\\4x3\\zw.svg",
+      "PackagePath": "staticwebassets\\vendors\\flag-icon-css\\flags\\4x3\\zw.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\jquery-bar-rating\\fontawesome-stars-o.css",
+      "PackagePath": "staticwebassets\\vendors\\jquery-bar-rating\\fontawesome-stars-o.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\jquery-bar-rating\\fontawesome-stars.css",
+      "PackagePath": "staticwebassets\\vendors\\jquery-bar-rating\\fontawesome-stars.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\jquery-bar-rating\\jquery.barrating.min.js",
+      "PackagePath": "staticwebassets\\vendors\\jquery-bar-rating\\jquery.barrating.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\jquery-bar-rating\\jquery.barrating.min.js.map",
+      "PackagePath": "staticwebassets\\vendors\\jquery-bar-rating\\jquery.barrating.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\jquery-file-upload\\jquery.uploadfile.min.js",
+      "PackagePath": "staticwebassets\\vendors\\jquery-file-upload\\jquery.uploadfile.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\jquery-file-upload\\uploadfile.css",
+      "PackagePath": "staticwebassets\\vendors\\jquery-file-upload\\uploadfile.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\jquery.repeater\\jquery.repeater.min.js",
+      "PackagePath": "staticwebassets\\vendors\\jquery.repeater\\jquery.repeater.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\progressbar.js\\progressbar.min.js",
+      "PackagePath": "staticwebassets\\vendors\\progressbar.js\\progressbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\select2-bootstrap-theme\\select2-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendors\\select2-bootstrap-theme\\select2-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\vendors\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\vendors\\select2\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\vendors\\typeahead.js\\typeahead.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendors\\typeahead.js\\typeahead.bundle.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.salonytics.props",
+      "PackagePath": "build\\salonytics.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.salonytics.props",
+      "PackagePath": "buildMultiTargeting\\salonytics.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.salonytics.props",
+      "PackagePath": "buildTransitive\\salonytics.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.salonytics.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

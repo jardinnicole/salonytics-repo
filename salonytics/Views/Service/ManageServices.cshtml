@@ -1,0 +1,45 @@
+﻿@model salonytics.Models.StylistServiceViewModel
+
+@{
+    ViewData["Title"] = "Create Stylist";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h4>Stylist</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div class="form-group">
+                <label asp-for="Stylist.LastName" class="control-label"></label>
+                <label asp-for="Stylist.LastName" class="control-label"></label>
+                <input asp-for="Stylist.LastName" class="form-control" />
+                <span asp-validation-for="Stylist.LastName" class="text-danger"></span>
+            </div>
+            <div id="serviceDropdowns">
+                @Html.Partial("_ServiceDropdown", new SelectListItem { Value = "", Text = "Select a Service" })
+            </div>
+            <button type="button" class="btn btn-primary mt-3" id="addServiceDropdown">Add Service</button>
+            <div class="form-group mt-3">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var serviceDropdownHtml = `@Html.Partial("_ServiceDropdown", new SelectListItem { Value = "", Text = "Select a Service" })`;
+
+            $("#addServiceDropdown").click(function () {
+                $("#serviceDropdowns").append(serviceDropdownHtml);
+            });
+        });
+    </script>
+}

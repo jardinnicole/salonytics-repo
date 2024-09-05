@@ -1,0 +1,2332 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\scheduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\scheduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\appointment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\appointment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\shared\\_userdashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\shared\\_userdashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\home\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\home\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\migrations\\20240820233349_stylistcodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\migrations\\20240820233349_stylistcodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_salonytics_02204b59_09e1_4ee5_9711_db1284b4fb05/True/SqlTable/dbo.Services.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\userdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\userdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240905140236_notifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:salonytics\\Migrations\\20240905140236_notifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\controllers\\headercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\controllers\\headercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\entities\\stylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\entities\\stylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\user\\appointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\user\\appointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_salonytics_02204b59_09e1_4ee5_9711_db1284b4fb05/True/SqlTable/dbo.Branches.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_salonytics_02204b59_09e1_4ee5_9711_db1284b4fb05/True/SqlTable/dbo.Appointments.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_salonytics_02204b59_09e1_4ee5_9711_db1284b4fb05/True/SqlTable/dbo.HomeServiceAvailabilities.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_salonytics_02204b59_09e1_4ee5_9711_db1284b4fb05/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_salonytics_02204b59_09e1_4ee5_9711_db1284b4fb05/True/SqlTable/dbo.Stylists.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240725115600_BranchFare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:salonytics\\Migrations\\20240725115600_BranchFare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240725115909_branchfare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:salonytics\\Migrations\\20240725115909_branchfare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240725112136_BranchFare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:salonytics\\Migrations\\20240725112136_BranchFare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\stylist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\stylist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\home\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\home\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\user_design.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\wwwroot\\css\\user_design.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\appointment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\appointment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\user\\userlocation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\user\\userlocation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\user\\morefaqs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\user\\morefaqs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\appointment\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\appointment\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\appointment\\appointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\appointment\\appointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\controllers\\stylistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\controllers\\stylistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\transaction\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\transaction\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\stylist\\addstylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\stylist\\addstylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\services\\stylistcodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\services\\stylistcodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\stylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\stylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\homeservice\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\homeservice\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\controllers\\queuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\controllers\\queuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\services\\queueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\services\\queueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\services\\paypalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\services\\paypalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\entities\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\entities\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\migrations\\20240820015428_appodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\migrations\\20240820015428_appodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\service\\manageservices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\service\\manageservices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\queue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\queue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\migrations\\20240820012826_appcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\migrations\\20240820012826_appcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\stylist\\stylisttransaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\stylist\\stylisttransaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\stylisttransactionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\stylisttransactionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\migrations\\20240807081943_paymentemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\migrations\\20240807081943_paymentemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\branchdailyreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\branchdailyreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\entities\\revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\entities\\revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\branch\\branchdailyreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\branch\\branchdailyreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\salonytics.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\salonytics.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\branch\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\branch\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\branchindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\branchindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\entities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\entities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\bookappointmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\bookappointmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\migrations\\20240807063509_totalsalesupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\migrations\\20240807063509_totalsalesupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\migrations\\20240807054750_totalsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\migrations\\20240807054750_totalsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\editappointmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\editappointmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\stylist\\viewstylists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\stylist\\viewstylists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\schedule\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\schedule\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\homeservice\\bookappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\homeservice\\bookappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\appointment\\bookappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\appointment\\bookappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\controllers\\homeservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\controllers\\homeservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\migrations\\20240806230824_hsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\migrations\\20240806230824_hsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\entities\\homeserviceavailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\entities\\homeserviceavailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\home\\pastappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\home\\pastappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\migrations\\20240806211741_queueid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\migrations\\20240806211741_queueid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\inventory\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\inventory\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\entities\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\entities\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\appointment\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\appointment\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\migrations\\20240806205048_queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\migrations\\20240806205048_queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\schedule\\createschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\schedule\\createschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\stylist\\editschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\stylist\\editschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\schedule\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\schedule\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\weeklyscheduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\weeklyscheduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\stylist\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\stylist\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\entities\\stylistschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\entities\\stylistschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\stylist\\assignbranch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\stylist\\assignbranch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\migrations\\20240806041410_stylistschedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\migrations\\20240806041410_stylistschedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\entities\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\entities\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\stylist\\stylistappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\stylist\\stylistappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\home\\branches.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\home\\branches.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\migrations\\20240725120308_branchfare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\migrations\\20240725120308_branchfare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\entities\\branchfare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\entities\\branchfare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\stylistbranchassignmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\stylistbranchassignmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\shop\\purchase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\shop\\purchase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\shop\\confirmpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\shop\\confirmpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\shared\\_availabledatespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\shared\\_availabledatespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\shared\\_appointmentdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\shared\\_appointmentdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\appointment\\homeserviceavailability.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\appointment\\homeserviceavailability.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\homeserviceavailabilityviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\homeserviceavailabilityviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\paper-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\wwwroot\\css\\paper-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\wwwroot\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_checkboxes-radio.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\wwwroot\\scss\\paper-dashboard\\_checkboxes-radio.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\migrations\\20240711075702_homeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\migrations\\20240711075702_homeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\appointment\\billing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\appointment\\billing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\billingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\billingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\migrations\\20240624051238_addslotsandfee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\migrations\\20240624051238_addslotsandfee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\shared\\_frontlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\shared\\_frontlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\shared\\_landinglayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\shared\\_landinglayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\appointmentindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\appointmentindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\inventory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\inventory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\appointment\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\appointment\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\migrations\\20240619213447_kimmy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\migrations\\20240619213447_kimmy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\shop\\purchaseconfirmed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\shop\\purchaseconfirmed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\inventory\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\inventory\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\migrations\\20240619202742_addinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\migrations\\20240619202742_addinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\inventory\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\inventory\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\inventory\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\inventory\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\home\\confirmtippayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\home\\confirmtippayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\models\\paytipviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\models\\paytipviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\views\\home\\paytip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\views\\home\\paytip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|c:\\users\\nicol\\onedrive\\desktop\\project\\salonytics\\salonytics\\migrations\\20240619185401_addratingtip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172F6300-ED9E-4552-81A9-0646FFAA1C8D}|salonytics\\salonytics.csproj|solutionrelative:salonytics\\migrations\\20240619185401_addratingtip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 705,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Stylist\\Index.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Stylist\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Stylist\\Index.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Stylist\\Index.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAF0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T12:06:03.988Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:659623988:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1350376707:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "salonytics\\Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\AppointmentController.cs*",
+              "RelativeToolTip": "salonytics\\Controllers\\AppointmentController.cs*",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAIwKEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T21:56:31.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Appointment.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\Entities\\Appointment.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Appointment.cs*",
+              "RelativeToolTip": "salonytics\\Models\\Entities\\Appointment.cs*",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAUwEgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T19:43:46.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScheduleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\ScheduleViewModel.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\ScheduleViewModel.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\ScheduleViewModel.cs",
+              "RelativeToolTip": "salonytics\\Models\\ScheduleViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T14:26:11.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "salonytics\\Services\\AppointmentService.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "salonytics\\Services\\AppointmentService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wDEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:17:33.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\Create.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Appointment\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\Create.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Appointment\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAIwCIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T01:27:51.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_UserDashboardLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shared\\_UserDashboardLayout.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Shared\\_UserDashboardLayout.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shared\\_UserDashboardLayout.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Shared\\_UserDashboardLayout.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAD4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T17:38:35.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABQBAAAAAAAAAAAAACwBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T20:50:35.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Home\\UserDashboard.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Home\\UserDashboard.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Home\\UserDashboard.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Home\\UserDashboard.cshtml",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAswJsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T18:57:23.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240820233349_stylistcodes.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240820233349_stylistcodes.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240820233349_stylistcodes.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240820233349_stylistcodes.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240820233349_stylistcodes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T23:33:49.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbo.Services [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_salonytics_02204b59_09e1_4ee5_9711_db1284b4fb05/True/SqlTable/dbo.Services.sql",
+              "ToolTip": "dbo.Services [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-24T05:14:30.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\UserDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\UserDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\UserDashboardViewModel.cs",
+              "RelativeToolTip": "salonytics\\Models\\UserDashboardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T12:01:31.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240905140236_notifications.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240905140236_notifications.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240905140236_notifications.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240905140236_notifications.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240905140236_notifications.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T14:02:37.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HeaderController.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\HeaderController.cs",
+              "RelativeDocumentMoniker": "salonytics\\Controllers\\HeaderController.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\HeaderController.cs",
+              "RelativeToolTip": "salonytics\\Controllers\\HeaderController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T13:56:43.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Stylist.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Stylist.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\Entities\\Stylist.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Stylist.cs",
+              "RelativeToolTip": "salonytics\\Models\\Entities\\Stylist.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T01:12:56.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "salonytics\\Services\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Services\\NotificationService.cs",
+              "RelativeToolTip": "salonytics\\Services\\NotificationService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwCQAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T13:37:37.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Appointments.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\User\\Appointments.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\User\\Appointments.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\User\\Appointments.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\User\\Appointments.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAYwFgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T11:05:02.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "salonytics\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\UserController.cs",
+              "RelativeToolTip": "salonytics\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAgwEMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T09:50:43.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "salonytics\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "salonytics\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAuwFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T19:13:24.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Home\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Home\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Home\\AdminDashboard.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Home\\AdminDashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T10:59:04.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "user_design.css",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\user_design.css",
+              "RelativeDocumentMoniker": "salonytics\\wwwroot\\css\\user_design.css",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\user_design.css",
+              "RelativeToolTip": "salonytics\\wwwroot\\css\\user_design.css",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-02T18:02:23.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\Edit.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Appointment\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\Edit.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Appointment\\Edit.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T04:04:01.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserLocation.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\User\\UserLocation.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\User\\UserLocation.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\User\\UserLocation.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\User\\UserLocation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T09:55:33.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MoreFaqs.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\User\\MoreFaqs.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\User\\MoreFaqs.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\User\\MoreFaqs.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\User\\MoreFaqs.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T09:52:45.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAOoAAAAAAAAAAAAmwAgBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T01:54:34.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T17:54:16.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\Update.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Appointment\\Update.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\Update.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Appointment\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T22:32:10.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Appointments.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\Appointments.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Appointment\\Appointments.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\Appointments.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Appointment\\Appointments.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAIsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T21:26:52.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "StylistController.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\StylistController.cs",
+              "RelativeDocumentMoniker": "salonytics\\Controllers\\StylistController.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\StylistController.cs",
+              "RelativeToolTip": "salonytics\\Controllers\\StylistController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAF0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T05:56:24.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Transaction\\Details.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Transaction\\Details.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Transaction\\Details.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Transaction\\Details.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T00:09:30.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Transaction\\Index.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Transaction\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Transaction\\Index.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Transaction\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADQAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T02:33:25.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AddStylist.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Stylist\\AddStylist.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Stylist\\AddStylist.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Stylist\\AddStylist.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Stylist\\AddStylist.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T23:28:41.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "StylistCodeService.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Services\\StylistCodeService.cs",
+              "RelativeDocumentMoniker": "salonytics\\Services\\StylistCodeService.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Services\\StylistCodeService.cs",
+              "RelativeToolTip": "salonytics\\Services\\StylistCodeService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowCUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T23:31:43.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Program.cs",
+              "RelativeDocumentMoniker": "salonytics\\Program.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Program.cs",
+              "RelativeToolTip": "salonytics\\Program.cs",
+              "ViewState": "AQIAAEkAAACAmZmZmZktwBsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T21:28:30.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "StylistViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\StylistViewModel.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\StylistViewModel.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\StylistViewModel.cs",
+              "RelativeToolTip": "salonytics\\Models\\StylistViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:59:59.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\Index.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Appointment\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\Index.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Appointment\\Index.cshtml",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAQwMMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T22:22:44.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Book.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\HomeService\\Book.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\HomeService\\Book.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\HomeService\\Book.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\HomeService\\Book.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC0AAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T22:54:57.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "QueueController.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\QueueController.cs",
+              "RelativeDocumentMoniker": "salonytics\\Controllers\\QueueController.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\QueueController.cs",
+              "RelativeToolTip": "salonytics\\Controllers\\QueueController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T20:48:36.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "QueueService.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Services\\QueueService.cs",
+              "RelativeDocumentMoniker": "salonytics\\Services\\QueueService.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Services\\QueueService.cs",
+              "RelativeToolTip": "salonytics\\Services\\QueueService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T21:26:51.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PayPalService.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Services\\PayPalService.cs",
+              "RelativeDocumentMoniker": "salonytics\\Services\\PayPalService.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Services\\PayPalService.cs",
+              "RelativeToolTip": "salonytics\\Services\\PayPalService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:17:51.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Queue.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Queue.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\Entities\\Queue.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Queue.cs",
+              "RelativeToolTip": "salonytics\\Models\\Entities\\Queue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T20:46:46.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20240820015428_appodes.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240820015428_appodes.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240820015428_appodes.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240820015428_appodes.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240820015428_appodes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T01:54:29.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ManageServices.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Service\\ManageServices.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Service\\ManageServices.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Service\\ManageServices.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Service\\ManageServices.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T01:48:13.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Queue\\Index.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Queue\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Queue\\Index.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Queue\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T20:58:02.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20240820012826_appcode.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240820012826_appcode.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240820012826_appcode.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240820012826_appcode.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240820012826_appcode.cs",
+              "ViewState": "AQIAABcAAABAMzMzMzMbwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T01:28:28.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "StylistTransaction.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Stylist\\StylistTransaction.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Stylist\\StylistTransaction.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Stylist\\StylistTransaction.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Stylist\\StylistTransaction.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T06:51:42.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "StylistTransactionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\StylistTransactionViewModel.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\StylistTransactionViewModel.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\StylistTransactionViewModel.cs",
+              "RelativeToolTip": "salonytics\\Models\\StylistTransactionViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T06:50:33.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "BranchController.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\BranchController.cs",
+              "RelativeDocumentMoniker": "salonytics\\Controllers\\BranchController.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\BranchController.cs",
+              "RelativeToolTip": "salonytics\\Controllers\\BranchController.cs",
+              "ViewState": "AQIAAB4AAAA0AAAAAAAwwCQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T07:31:04.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20240807081943_PaymentEmp.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240807081943_PaymentEmp.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240807081943_PaymentEmp.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240807081943_PaymentEmp.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240807081943_PaymentEmp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T08:19:44.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "BranchDailyReportViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\BranchDailyReportViewModel.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\BranchDailyReportViewModel.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\BranchDailyReportViewModel.cs",
+              "RelativeToolTip": "salonytics\\Models\\BranchDailyReportViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T07:32:55.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Revenue.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Revenue.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\Entities\\Revenue.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Revenue.cs",
+              "RelativeToolTip": "salonytics\\Models\\Entities\\Revenue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T08:06:54.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "salonytics\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "salonytics\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAoAAAAwMzMzMzMzwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T19:43:10.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Sale.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\Entities\\Sale.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Sale.cs",
+              "RelativeToolTip": "salonytics\\Models\\Entities\\Sale.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T08:05:46.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "BranchDailyReport.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Branch\\BranchDailyReport.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Branch\\BranchDailyReport.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Branch\\BranchDailyReport.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Branch\\BranchDailyReport.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T07:34:50.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "salonytics.csproj",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\salonytics.csproj",
+              "RelativeDocumentMoniker": "salonytics\\salonytics.csproj",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\salonytics.csproj",
+              "RelativeToolTip": "salonytics\\salonytics.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-25T07:14:28.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Branch\\Index.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Branch\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Branch\\Index.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Branch\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T07:38:55.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "BranchIndexViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\BranchIndexViewModel.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\BranchIndexViewModel.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\BranchIndexViewModel.cs",
+              "RelativeToolTip": "salonytics\\Models\\BranchIndexViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T07:37:21.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Branch.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\Entities\\Branch.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Branch.cs",
+              "RelativeToolTip": "salonytics\\Models\\Entities\\Branch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:54:21.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "BookAppointmentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\BookAppointmentViewModel.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\BookAppointmentViewModel.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\BookAppointmentViewModel.cs",
+              "RelativeToolTip": "salonytics\\Models\\BookAppointmentViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T23:29:22.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "20240807063509_TotalSalesupdate.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240807063509_TotalSalesupdate.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240807063509_TotalSalesupdate.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240807063509_TotalSalesupdate.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240807063509_TotalSalesupdate.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T06:35:10.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "20240807054750_totalsales.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240807054750_totalsales.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240807054750_totalsales.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240807054750_totalsales.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240807054750_totalsales.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T05:47:50.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "EditAppointmentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\EditAppointmentViewModel.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\EditAppointmentViewModel.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\EditAppointmentViewModel.cs",
+              "RelativeToolTip": "salonytics\\Models\\EditAppointmentViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T04:03:58.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ViewStylists.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Stylist\\ViewStylists.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Stylist\\ViewStylists.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Stylist\\ViewStylists.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Stylist\\ViewStylists.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAD4vzgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T01:04:56.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Schedule\\Index.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Schedule\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Schedule\\Index.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Schedule\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T14:04:26.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "BookAppointment.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\HomeService\\BookAppointment.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\HomeService\\BookAppointment.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\HomeService\\BookAppointment.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\HomeService\\BookAppointment.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T22:54:43.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "BookAppointment.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\BookAppointment.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Appointment\\BookAppointment.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\BookAppointment.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Appointment\\BookAppointment.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T23:35:28.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Rating.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\Entities\\Rating.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Rating.cs",
+              "RelativeToolTip": "salonytics\\Models\\Entities\\Rating.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T21:08:39.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "HomeServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\HomeServiceController.cs",
+              "RelativeDocumentMoniker": "salonytics\\Controllers\\HomeServiceController.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\HomeServiceController.cs",
+              "RelativeToolTip": "salonytics\\Controllers\\HomeServiceController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwGsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T22:50:16.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "20240806230824_hsa.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240806230824_hsa.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240806230824_hsa.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240806230824_hsa.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240806230824_hsa.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwCsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T23:08:24.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "HomeServiceAvailability.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\HomeServiceAvailability.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\Entities\\HomeServiceAvailability.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\HomeServiceAvailability.cs",
+              "RelativeToolTip": "salonytics\\Models\\Entities\\HomeServiceAvailability.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA5wAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T07:32:28.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "PastAppointments.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Home\\PastAppointments.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Home\\PastAppointments.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Home\\PastAppointments.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Home\\PastAppointments.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T22:42:52.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "20240806211741_queueid.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240806211741_queueid.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240806211741_queueid.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240806211741_queueid.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240806211741_queueid.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwDUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T21:17:42.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Inventory\\Details.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Inventory\\Details.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Inventory\\Details.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Inventory\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T20:24:41.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Inventory.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\Entities\\Inventory.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Inventory.cs",
+              "RelativeToolTip": "salonytics\\Models\\Entities\\Inventory.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T19:42:40.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\Entities\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\OrderDetail.cs",
+              "RelativeToolTip": "salonytics\\Models\\Entities\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T20:46:26.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Read.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\Read.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Appointment\\Read.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\Read.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Appointment\\Read.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T22:35:07.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "20240806205048_Queue.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240806205048_Queue.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240806205048_Queue.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240806205048_Queue.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240806205048_Queue.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T20:50:48.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "CreateSchedule.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Schedule\\CreateSchedule.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Schedule\\CreateSchedule.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Schedule\\CreateSchedule.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Schedule\\CreateSchedule.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAwF0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T14:43:04.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "EditSchedule.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Stylist\\EditSchedule.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Stylist\\EditSchedule.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Stylist\\EditSchedule.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Stylist\\EditSchedule.cshtml",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T19:04:34.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Schedule\\Create.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Schedule\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Schedule\\Create.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Schedule\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T14:11:33.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "WeeklyScheduleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\WeeklyScheduleViewModel.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\WeeklyScheduleViewModel.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\WeeklyScheduleViewModel.cs",
+              "RelativeToolTip": "salonytics\\Models\\WeeklyScheduleViewModel.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAIwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T04:06:19.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "ScheduleController.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\ScheduleController.cs",
+              "RelativeDocumentMoniker": "salonytics\\Controllers\\ScheduleController.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\ScheduleController.cs",
+              "RelativeToolTip": "salonytics\\Controllers\\ScheduleController.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAowDIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T03:10:02.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Stylist\\Edit.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Stylist\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Stylist\\Edit.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Stylist\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T14:50:24.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "salonytics\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "salonytics\\Controllers\\ShopController.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAkwHcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T20:37:27.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "salonytics\\Controllers\\ServiceController.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "salonytics\\Controllers\\ServiceController.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T19:37:32.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "StylistSchedule.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\StylistSchedule.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\Entities\\StylistSchedule.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\StylistSchedule.cs",
+              "RelativeToolTip": "salonytics\\Models\\Entities\\StylistSchedule.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA0wB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T04:10:37.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "AssignBranch.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Stylist\\AssignBranch.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Stylist\\AssignBranch.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Stylist\\AssignBranch.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Stylist\\AssignBranch.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T10:30:09.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAKcSAAAAAAAAAAAswLUSAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-08-06T19:13:09.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "20240806041410_StylistSchedules.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240806041410_StylistSchedules.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240806041410_StylistSchedules.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240806041410_StylistSchedules.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240806041410_StylistSchedules.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T04:14:10.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Service.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\Entities\\Service.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Service.cs",
+              "RelativeToolTip": "salonytics\\Models\\Entities\\Service.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:02:44.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "StylistAppointment.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Stylist\\StylistAppointment.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Stylist\\StylistAppointment.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Stylist\\StylistAppointment.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Stylist\\StylistAppointment.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T15:00:46.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20240725115600_BranchFare.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240725115600_BranchFare.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240725115600_BranchFare.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240725115600_BranchFare.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240725115600_BranchFare.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:56:00.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "Branches.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Home\\Branches.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Home\\Branches.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Home\\Branches.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Home\\Branches.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T11:54:13.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "20240725120308_branchfare.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240725120308_branchfare.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240725120308_branchfare.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240725120308_branchfare.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240725120308_branchfare.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T12:03:08.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20240725115909_branchfare.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240725115909_branchfare.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240725115909_branchfare.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240725115909_branchfare.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240725115909_branchfare.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:59:09.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20240725112136_BranchFare.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240725112136_BranchFare.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240725112136_BranchFare.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240725112136_BranchFare.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240725112136_BranchFare.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAUwG4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:21:36.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "BranchFare.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\BranchFare.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\Entities\\BranchFare.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\BranchFare.cs",
+              "RelativeToolTip": "salonytics\\Models\\Entities\\BranchFare.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T03:24:37.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "StylistBranchAssignmentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\StylistBranchAssignmentViewModel.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\StylistBranchAssignmentViewModel.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\StylistBranchAssignmentViewModel.cs",
+              "RelativeToolTip": "salonytics\\Models\\StylistBranchAssignmentViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T01:25:53.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shop\\Details.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Shop\\Details.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shop\\Details.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Shop\\Details.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAYwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T20:39:05.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "Purchase.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shop\\Purchase.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Shop\\Purchase.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shop\\Purchase.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Shop\\Purchase.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T20:39:30.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T20:38:40.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "ConfirmPayment.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shop\\ConfirmPayment.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Shop\\ConfirmPayment.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shop\\ConfirmPayment.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Shop\\ConfirmPayment.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwCMAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T20:45:29.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "_AvailableDatesPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shared\\_AvailableDatesPartial.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Shared\\_AvailableDatesPartial.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shared\\_AvailableDatesPartial.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Shared\\_AvailableDatesPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T11:53:37.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "_AppointmentDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shared\\_AppointmentDetails.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Shared\\_AppointmentDetails.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shared\\_AppointmentDetails.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Shared\\_AppointmentDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T22:28:25.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "HomeServiceAvailability.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\HomeServiceAvailability.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Appointment\\HomeServiceAvailability.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\HomeServiceAvailability.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Appointment\\HomeServiceAvailability.cshtml",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAgwJoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T07:43:42.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "HomeServiceAvailabilityViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\HomeServiceAvailabilityViewModel.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\HomeServiceAvailabilityViewModel.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\HomeServiceAvailabilityViewModel.cs",
+              "RelativeToolTip": "salonytics\\Models\\HomeServiceAvailabilityViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T07:38:54.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "paper-dashboard.css",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\paper-dashboard.css",
+              "RelativeDocumentMoniker": "salonytics\\wwwroot\\css\\paper-dashboard.css",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\paper-dashboard.css",
+              "RelativeToolTip": "salonytics\\wwwroot\\css\\paper-dashboard.css",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-19T09:09:42.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "salonytics\\wwwroot\\css\\bootstrap.css",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\bootstrap.css",
+              "RelativeToolTip": "salonytics\\wwwroot\\css\\bootstrap.css",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-19T09:09:31.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "salonytics\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "salonytics\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-11T08:23:44.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "_checkboxes-radio.scss",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_checkboxes-radio.scss",
+              "RelativeDocumentMoniker": "salonytics\\wwwroot\\scss\\paper-dashboard\\_checkboxes-radio.scss",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\wwwroot\\scss\\paper-dashboard\\_checkboxes-radio.scss",
+              "RelativeToolTip": "salonytics\\wwwroot\\scss\\paper-dashboard\\_checkboxes-radio.scss",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-07-11T08:25:31.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "20240711075702_HomeService.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240711075702_HomeService.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240711075702_HomeService.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240711075702_HomeService.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240711075702_HomeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T07:57:02.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "Billing.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\Billing.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Appointment\\Billing.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\Billing.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Appointment\\Billing.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T19:14:32.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "BillingViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\BillingViewModel.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\BillingViewModel.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\BillingViewModel.cs",
+              "RelativeToolTip": "salonytics\\Models\\BillingViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T06:03:57.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "20240624051238_addSlotsandFee.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240624051238_addSlotsandFee.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240624051238_addSlotsandFee.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240624051238_addSlotsandFee.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240624051238_addSlotsandFee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:12:38.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "_FrontLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shared\\_FrontLayout.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Shared\\_FrontLayout.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shared\\_FrontLayout.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Shared\\_FrontLayout.cshtml",
+              "ViewState": "AQIAADgAAAAAMzMzMzMrwGAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:47:08.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "_LandingLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shared\\_LandingLayout.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Shared\\_LandingLayout.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shared\\_LandingLayout.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Shared\\_LandingLayout.cshtml",
+              "ViewState": "AQIAAKkAAAAAAAAAAAAAALkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T23:49:17.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "AppointmentIndexViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\AppointmentIndexViewModel.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\AppointmentIndexViewModel.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\AppointmentIndexViewModel.cs",
+              "RelativeToolTip": "salonytics\\Models\\AppointmentIndexViewModel.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA0wA8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T23:18:58.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Inventory\\Index.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Inventory\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Inventory\\Index.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Inventory\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T20:21:00.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "Cancel.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\Cancel.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Appointment\\Cancel.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Appointment\\Cancel.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Appointment\\Cancel.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T22:36:33.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "salonytics\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "salonytics\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAYwFwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T22:06:50.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "salonytics\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T22:09:59.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "RegisterConfirmation.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "salonytics\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeToolTip": "salonytics\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwCsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T22:14:34.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 127,
+              "Title": "RegisterConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeToolTip": "salonytics\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T22:14:11.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 128,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "salonytics\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T21:55:30.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 129,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\appsettings.json",
+              "RelativeDocumentMoniker": "salonytics\\appsettings.json",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\appsettings.json",
+              "RelativeToolTip": "salonytics\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-19T21:48:15.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 130,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "salonytics\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "salonytics\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAnwFYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T19:44:10.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 131,
+              "Title": "20240619213447_kimmy.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240619213447_kimmy.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240619213447_kimmy.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240619213447_kimmy.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240619213447_kimmy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T21:34:47.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 132,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\Entities\\Order.cs",
+              "RelativeToolTip": "salonytics\\Models\\Entities\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T20:36:24.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 133,
+              "Title": "PurchaseConfirmed.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shop\\PurchaseConfirmed.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Shop\\PurchaseConfirmed.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Shop\\PurchaseConfirmed.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Shop\\PurchaseConfirmed.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T21:17:25.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 134,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Inventory\\Delete.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Inventory\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Inventory\\Delete.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Inventory\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T20:25:40.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 135,
+              "Title": "20240619202742_addInventory.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240619202742_addInventory.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240619202742_addInventory.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240619202742_addInventory.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240619202742_addInventory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T20:27:43.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 136,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Inventory\\Edit.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Inventory\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Inventory\\Edit.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Inventory\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T20:24:04.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 137,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "salonytics\\Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "salonytics\\Controllers\\InventoryController.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAuwHAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T19:44:44.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 138,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Inventory\\Create.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Inventory\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Inventory\\Create.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Inventory\\Create.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T20:23:24.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 139,
+              "Title": "ConfirmTipPayment.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Home\\ConfirmTipPayment.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Home\\ConfirmTipPayment.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Home\\ConfirmTipPayment.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Home\\ConfirmTipPayment.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T19:21:23.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 140,
+              "Title": "PayTipViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\PayTipViewModel.cs",
+              "RelativeDocumentMoniker": "salonytics\\Models\\PayTipViewModel.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Models\\PayTipViewModel.cs",
+              "RelativeToolTip": "salonytics\\Models\\PayTipViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T19:16:37.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 141,
+              "Title": "PayTip.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Home\\PayTip.cshtml",
+              "RelativeDocumentMoniker": "salonytics\\Views\\Home\\PayTip.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Views\\Home\\PayTip.cshtml",
+              "RelativeToolTip": "salonytics\\Views\\Home\\PayTip.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T19:18:28.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 142,
+              "Title": "20240619185401_addratingTip.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240619185401_addratingTip.cs",
+              "RelativeDocumentMoniker": "salonytics\\Migrations\\20240619185401_addratingTip.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive\\Desktop\\project\\salonytics\\salonytics\\Migrations\\20240619185401_addratingTip.cs",
+              "RelativeToolTip": "salonytics\\Migrations\\20240619185401_addratingTip.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAgwEMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T18:54:01.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "dbo.Branches [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_salonytics_02204b59_09e1_4ee5_9711_db1284b4fb05/True/SqlTable/dbo.Branches.sql",
+              "ToolTip": "dbo.Branches [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-20T01:37:43.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "dbo.Appointments [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_salonytics_02204b59_09e1_4ee5_9711_db1284b4fb05/True/SqlTable/dbo.Appointments.sql",
+              "ToolTip": "dbo.Appointments [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-19T18:57:55.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "dbo.HomeServiceAvailabilities [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_salonytics_02204b59_09e1_4ee5_9711_db1284b4fb05/True/SqlTable/dbo.HomeServiceAvailabilities.sql",
+              "ToolTip": "dbo.HomeServiceAvailabilities [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-06T23:06:24.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_salonytics_02204b59_09e1_4ee5_9711_db1284b4fb05/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-07-25T15:05:31.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "dbo.Stylists [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_salonytics_02204b59_09e1_4ee5_9711_db1284b4fb05/True/SqlTable/dbo.Stylists.sql",
+              "ToolTip": "dbo.Stylists [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-07-25T15:05:01.415Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

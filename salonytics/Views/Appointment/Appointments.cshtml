@@ -1,0 +1,145 @@
+﻿@model IEnumerable<Salonytics.Models.Entities.Appointment>
+@using Salonytics.Helpers
+
+@{
+    ViewData["Title"] = "Appointments";
+    Layout = "_Layout";
+}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="weekly-tab" data-bs-toggle="tab" href="#weekly" role="tab" aria-controls="weekly" aria-selected="true">Weekly</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="monthly-tab" data-bs-toggle="tab" href="#monthly" role="tab" aria-controls="monthly" aria-selected="false">Monthly</a>
+                </li>
+            </ul>
+            <div class="tab-content mt-3" id="myTabContent">
+                <div class="tab-pane fade show active" id="weekly" role="tabpanel" aria-labelledby="weekly-tab">
+                    <h2>Weekly Appointments Calendar</h2>
+                    <div id="weekly-calendar"></div>
+                </div>
+                <div class="tab-pane fade" id="monthly" role="tabpanel" aria-labelledby="monthly-tab">
+                    <h2>Monthly Appointments Calendar</h2>
+                    <div id="monthly-calendar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Appointment Details -->
+<div class="modal fade" id="appointmentDetailsModal" tabindex="-1" aria-labelledby="appointmentDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="appointmentDetailsModalLabel">Appointment Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="appointmentDetails">
+                <!-- Appointment details will be loaded here -->
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
+
+    <style>
+        /* CSS for fullcalendar */
+        #weekly-calendar,
+        #monthly-calendar {
+            background: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            margin-top: 20px;
+            height: calc(100vh - 150px); /* 100% height minus header and padding */
+            overflow-y: auto; /* Enable scrolling if content exceeds height */
+        }
+
+        .fc-view-container {
+            height: 100%;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function () {
+            // Activate Bootstrap tabs
+            $('#myTab a').on('click', function (e) {
+                e.preventDefault();
+                $(this).tab('show');
+            });
+
+            // Initialize weekly and monthly calendars
+            $('#weekly-calendar').fullCalendar({
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,agendaWeek'
+                },
+                defaultView: 'agendaWeek',
+                minTime: '08:00:00',
+                maxTime: '17:00:00',
+                height: 'parent',
+                events: '@Url.Action("GetWeeklyAppointments", "Appointment")',
+                eventClick: function (event) {
+                    loadDetails(event.id);
+                },
+                eventRender: function (event, element) {
+                    // Count the number of events on each day
+                    var appointmentCount = event.appointmentCount || 0;
+                    if (appointmentCount >= 16) {
+                        element.css('background-color', 'red'); // Highlight days with 16 or more appointments in red
+                    }
+                }
+            });
+
+            $('#monthly-calendar').fullCalendar({
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,agendaWeek'
+                },
+                defaultView: 'month',
+                height: 'parent',
+                events: '@Url.Action("GetMonthlyAppointments", "Appointment")',
+                eventClick: function (event) {
+                    loadDetails(event.id);
+                },
+                eventRender: function (event, element) {
+                    // Count the number of events on each day
+                    var appointmentCount = event.appointmentCount || 0;
+                    if (appointmentCount >= 16) {
+                        element.css('background-color', 'red'); // Highlight days with 16 or more appointments in red
+                    }
+                }
+            });
+
+            // Load appointment details in modal
+            function loadDetails(appointmentId) {
+                $.ajax({
+                    url: '@Url.Action("Details", "Appointment")',
+                    type: 'GET',
+                    data: { id: appointmentId },
+                    success: function (data) {
+                        $('#appointmentDetails').html(data);
+                        $('#appointmentDetailsModal').modal('show');
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error loading appointment details:', error);
+                    }
+                });
+            }
+        });
+    </script>
+}

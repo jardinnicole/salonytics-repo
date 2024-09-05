@@ -1,0 +1,193 @@
+﻿@model Salonytics.Models.Entities.Appointment
+
+@{
+    ViewData["Title"] = "Appointment Details";
+}
+
+<div class="card">
+    <div class="card-body">
+        <!-- Table for displaying/editing appointment details -->
+        <table class="table table-bordered">
+            <tbody>
+                <tr>
+                    <th style="width: 30%;">Appointment ID:</th>
+                    <td>@Model.AppointmentId</td>
+                </tr>
+                <tr>
+                    <th>Status:</th>
+                    <td>@Model.AppointmentStatus</td>
+                </tr>
+                <tr>
+                    <th>Approved:</th>
+                    <td>@(Model.IsApproved ? "Yes" : "No")</td>
+                </tr>
+                <tr>
+                    <th>Full Name:</th>
+                    <td>@Model.FullName</td>
+                </tr>
+                <tr>
+                    <th>Contact Number:</th>
+                    <td>@Model.ContactNo</td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td>@Model.Email</td>
+                </tr>
+                <tr>
+                    <th>Service:</th>
+                    <td>@Model.Service.Name</td>
+                </tr>
+                <tr>
+                    <th>Branch:</th>
+                    <td>@(Model.Branch?.BranchName ?? "Not Assigned")</td>
+                </tr>
+                <tr>
+                    <th>Stylist:</th>
+                    <td>@(Model.Stylist != null ? Model.Stylist.LastName + " " + Model.Stylist.FirstName : "Not Assigned")</td>
+                </tr>
+                <tr>
+                    <th>Date:</th>
+                    <td>@Model.Date.ToString("yyyy-MM-dd")</td>
+                </tr>
+                <tr>
+                    <th>Start Time:</th>
+                    <td>@Model.StartTime.ToString("hh\\:mm")</td>
+                </tr>
+                @if (Model.EndTime != null)
+                {
+                    <tr>
+                        <th>End Time:</th>
+                        <td>@Model.EndTime.Value.ToString("hh\\:mm")</td>
+                    </tr>
+                }
+                <tr>
+                    <th>Number of Heads:</th>
+                    <td>@Model.NoOfHeads</td>
+                </tr>
+                @if (!string.IsNullOrEmpty(Model.Remarks))
+                {
+                    <tr>
+                        <th>Remarks:</th>
+                        <td>@Model.Remarks</td>
+                    </tr>
+                }
+                <tr>
+                    <th>Total Price:</th>
+                    <td>@Model.TotalPrice</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Buttons for Edit Actions -->
+        <div class="mb-3">
+            <button type="button" id="editButton" class="btn btn-primary me-2">Edit Appointment</button>
+            <button type="button" id="cancelButton" class="btn btn-secondary" style="display: none;">Cancel</button>
+            <input type="submit" id="saveButton" value="Save" class="btn btn-primary" style="display: none;" />
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(function () {
+            var serviceId = "@Model.ServiceId";
+            var branchId = "@Model.BranchId";
+            var stylistId = "@(Model.StylistId.HasValue ? Model.StylistId.ToString() : string.Empty)";
+
+            // Load Service Name
+            $.ajax({
+                url: '/Appointment/GetServiceName',
+                type: 'GET',
+                data: { id: serviceId },
+                success: function (serviceName) {
+                    $('#serviceName').val(serviceName);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error loading service name:', error);
+                    $('#serviceName').val('Service Name not found');
+                }
+            });
+
+            // Load Branch Name
+            $.ajax({
+                url: '/Appointment/GetBranchName',
+                type: 'GET',
+                data: { id: branchId },
+                success: function (branchName) {
+                    $('#branchName').val(branchName);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error loading branch name:', error);
+                    $('#branchName').val('Branch Name not found');
+                }
+            });
+
+            // Load Stylist Name
+            if (stylistId) {
+                $.ajax({
+                    url: '/Appointment/GetStylistName',
+                    type: 'GET',
+                    data: { id: stylistId },
+                    success: function (stylistName) {
+                        $('#stylistName').val(stylistName);
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error loading stylist name:', error);
+                        $('#stylistName').val('Stylist Name not found');
+                    }
+                });
+            } else {
+                $('#stylistName').val('Not Assigned');
+            }
+
+            // Edit and Cancel buttons functionality
+            const editButton = document.getElementById('editButton');
+            const cancelButton = document.getElementById('cancelButton');
+            const saveButton = document.getElementById('saveButton');
+            const form = document.getElementById('appointmentForm');
+
+            editButton.addEventListener('click', function () {
+                // Enable form fields for editing
+                form.querySelectorAll('input, select, textarea').forEach(function (el) {
+                    el.removeAttribute('disabled');
+                });
+
+                // Toggle button visibility
+                editButton.style.display = 'none';
+                saveButton.style.display = 'inline-block';
+                cancelButton.style.display = 'inline-block';
+            });
+
+            cancelButton.addEventListener('click', function () {
+                // Disable form fields
+                form.querySelectorAll('input, select, textarea').forEach(function (el) {
+                    el.setAttribute('disabled', 'true');
+                });
+
+                // Toggle button visibility
+                editButton.style.display = 'inline-block';
+                saveButton.style.display = 'none';
+                cancelButton.style.display = 'none';
+            });
+        });
+    </script>
+
+    <!-- Modal for Cancel Appointment Confirmation -->
+    <div class="modal fade" id="cancelAppointmentModal" tabindex="-1" aria-labelledby="cancelAppointmentModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cancelAppointmentModalLabel">Cancel Appointment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Are you sure you want to cancel this appointment?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" id="confirmCancelAppointment" class="btn btn-danger">Cancel Appointment</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}

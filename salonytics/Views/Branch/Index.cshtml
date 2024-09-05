@@ -1,0 +1,39 @@
+﻿@model salonytics.Models.BranchIndexViewModel
+
+@{
+    ViewData["Title"] = "Branches";
+}
+
+
+@{
+    var today = DateTime.Now.ToString("yyyy-MM-dd"); // Adjust format if needed
+}
+<h2>Branch List</h2>
+
+<table class="table table-striped table-bordered">
+    <thead class="thead-dark">
+        <tr>
+            <th>Branch ID</th>
+            <th>Branch Name</th>
+            <th>Location</th>
+            <th>Sales</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var branch in Model.Branches)
+        {
+            <tr>
+                <td>@branch.BranchId</td>
+                <td>@branch.BranchName</td>
+                <td>@branch.Location</td>
+                <td>@branch.Sales</td>
+                <td>
+                    <a href="@Url.Action("BranchDailyReport", "Branch", new { branchId = branch.BranchId, date = today })">
+                        View Daily Report
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

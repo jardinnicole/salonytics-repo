@@ -1,0 +1,41 @@
+﻿@model salonytics.Models.BranchDailyReportViewModel
+
+@{
+    ViewData["Title"] = "Branch Daily Report";
+}
+
+<h2>Branch Daily Report for @Model.BranchName on @Model.Date.ToString("yyyy-MM-dd")</h2>
+
+<table class="table table-striped table-bordered">
+    <thead class="thead-dark">
+        <tr>
+            <th>Total Price</th>
+            <th>Total Payment (20% of Total Price)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.TotalPrice.ToString("C")</td>
+            <td>@Model.TotalPayment.ToString("C")</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Employee Payments</h3>
+<table class="table table-striped table-bordered">
+    <thead class="thead-dark">
+        <tr>
+            <th>Stylist Name</th>
+            <th>Payment Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var payment in Model.EmployeePayments)
+        {
+            <tr>
+                <td>@payment.StylistName</td>
+                <td>@payment.PaymentAmount.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>

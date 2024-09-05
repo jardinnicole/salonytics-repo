@@ -1,0 +1,210 @@
+﻿@model IEnumerable<Salonytics.Models.Entities.Appointment>
+
+@{
+    Layout = "_UserDashboardLayout";
+    ViewData["Title"] = "Dashboard";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    /* Define the default color of the stars (gray) */
+    .rating input[type="radio"] {
+        display: none; /* Hide the radio buttons */
+    }
+
+    /* Style for the stars */
+    .rating label {
+        color: #ccc; /* Gray color */
+        font-size: 24px; /* Adjust size as needed */
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+    }
+
+        /* When a star is checked or hovered, change its color and all previous stars to yellow */
+        .rating input[type="radio"]:checked ~ label,
+        .rating label:hover,
+        .rating input[type="radio"]:checked ~ label ~ label,
+        .rating input[type="radio"]:checked ~ label:hover ~ label {
+            color: #ffc107; /* Yellow color */
+        }
+</style>
+
+<div class="floating-box" id="floatingBox">
+    <div id="floatingContent">
+        <div id="locGreetText">
+            <h3>Good Day!</h3>
+            <h2>Where would you like your hair done?</h2>
+        </div>
+        <div class="location-input">
+            <input type="text" id="locationInput" placeholder="Type your address">
+        </div>
+        <button id="searchLocButton">Search by Address</button>
+        <button id="useLocationButton">Use My Current Location</button>
+    </div>
+</div>
+
+<main>
+    <!-- Services -->
+    <section class="services-section">
+        <h2><img src="~/images/our_services.png" alt="Our Services"></h2>
+        <div class="service-category">
+            <h3><img src="~/images/rebond.png" alt="Rebond"></h3>
+            <div class="service-item">
+                <img src="~/images/Rebond.jpg">
+                <p>Rebond Only</p>
+                <p>Price: ₱1799</p>
+                <a href="@Url.Action("Create", "Appointment", new { serviceId = "d08fa914-5317-47fa-b6c4-1be350536478" })" class="btn btn-primary">Book Appointment</a>
+            </div>
+            <div class="service-item">
+                <img src="~/images/Rebond_Brazilian.jpg">
+                <p>Rebond Brazilian w/ Hair Color</p>
+                <p>Price: ₱2499</p>
+                <a href="@Url.Action("Create", "Appointment", new { serviceId = "dd536d8e-9673-4935-810e-1ea3f64465eb" })" class="btn btn-primary">Book Appointment</a>
+            </div>
+            <div class="service-item">
+                <img src="~/images/Keratin-Keracollagen.png">
+                <p>Keratin/Keracollagen (Any Length)</p>
+                <p>Price: ₱2999</p>
+                <a href="@Url.Action("Create", "Appointment", new { serviceId = "22543b30-f0c8-4422-8d81-3121421ec06a" })" class="btn btn-primary">Book Appointment</a>
+            </div>
+        </div>
+
+        <div class="service-category">
+            <h3><img src="~/images/diamond_brazilian.png" alt="Diamond Brazilian"></h3>
+            <div class="service-item">
+                <img src="~/images/Diamond Brazilian w color.jpg">
+                <p>Diamond Brazilian w/ Hair Color</p>
+                <p>Price: ₱1199</p>
+                <a href="@Url.Action("Create", "Appointment", new { serviceId = "92e47b3d-e78a-4364-a175-02af530d3081" })" class="btn btn-primary">Book Appointment</a>
+            </div>
+            <div class="service-item">
+                <img src="~/images/Organic Diamond Brazilian w Organic color.jpg">
+                <p>Organic Diamond Brazilian w/ Organic Hair Color</p>
+                <p>Price: ₱1499</p>
+                <a href="@Url.Action("Create", "Appointment", new { serviceId = "2f0b8a2f-8637-4664-b547-ffa2963d428a" })" class="btn btn-primary">Book Appointment</a>
+            </div>
+            <div class="service-item">
+                <img src="~/images/Cysteine Diamond Brazilian.jpg">
+                <p>Cysteine Diamond Brazilian</p>
+                <p>Price: ₱2000</p>
+                <a href="@Url.Action("Create", "Appointment", new { serviceId = "2cfd0414-3ffe-4e80-bda4-8868d183876a" })" class="btn btn-primary">Book Appointment</a>
+            </div>
+            <div class="service-item">
+                <img src="~/images/Cysteine Diamond Brazilian NS.jpg">
+                <p>Cysteine Diamond Brazilian (Natural Straight)</p>
+                <p>Price: ₱2500</p>
+                <a href="@Url.Action("Create", "Appointment", new { serviceId = "b3deef98-d4fa-4f35-80b2-ef24dcddd232" })" class="btn btn-primary">Book Appointment</a>
+            </div>
+        </div>
+
+        <div class="service-category">
+            <h3><img src="~/images/packages.png" alt="Packages"></h3>
+            <div class="service-item">
+                <img src="~/images/Hombre Balayage.jpg">
+                <p>Homre / Balayage w/ Loreal Hair Spa</p>
+                <p>Price: ₱3000</p>
+                <a href="@Url.Action("Create", "Appointment", new { serviceId = "dd4342bb-9deb-4795-8359-06fa172eb909" })" class="btn btn-primary">Book Appointment</a>
+            </div>
+            <div class="service-item">
+                <img src="~/images/Organic Highlights Brazilian.jpg">
+                <p>Organic Hair Color + Organic Balayage / Highlights + Organic Brazilian</p>
+                <p>Price: ₱4000</p>
+                <a href="@Url.Action("Create", "Appointment", new { serviceId = "febab40f-341a-4020-9fef-8b225a4bfdaf" })" class="btn btn-primary">Book Appointment</a>
+            </div>
+            <div class="service-item">
+                <img src="~/images/Protein Balayage Highlights.jpg">
+                <p>Protein and Balayage / Highlights</p>
+                <p>Price: ₱5000</p>
+                <a href="@Url.Action("Create", "Appointment", new { serviceId = "a476f7ab-583a-4864-bdf9-d8d52373c419" })" class="btn btn-primary">Book Appointment</a>
+            </div>
+        </div>
+
+        <div class="service-category">
+            <h3><img src="~/images/hair_cut.png" alt="Haircut"></h3>
+            <div class="service-item">
+                <img src="~/images/haircut.jpg">
+                <p>Haircut</p>
+                <p>Price: ₱150</p>
+                <a href="@Url.Action("Create", "Appointment", new { serviceId = "ae6c5d9f-af63-41d0-9d7c-7058998cb2d4" })" class="btn btn-primary">Book Appointment</a>
+            </div>
+        </div>
+
+        <div class="service-category">
+            <h3><img src="~/images/hair_color.png" alt="Hair Color"></h3>
+            <div class="service-item">
+                <img src="~/images/Organic Color.jpg">
+                <p>Organic Hair Color</p>
+                <p>Price: ₱699</p>
+                <a href="@Url.Action("Create", "Appointment", new { serviceId = "647c898e-7236-45f2-ba9d-f4bfae7d9cab" })" class="btn btn-primary">Book Appointment</a>
+            </div>
+            <div class="service-item">
+                <img src="~/images/Organic Highlights.jpg">
+                <p>Organic Highlights</p>
+                <p>Price: ₱1499</p>
+                <a href="@Url.Action("Create", "Appointment", new { serviceId = "ccde9219-b05a-4636-a444-18477d204924" })" class="btn btn-primary">Book Appointment</a>
+            </div>
+            <div class="service-item">
+                <img src="~/images/Organic Highlights Color.jpg">
+                <p>Organic Highlights and Organic Color</p>
+                <p>Price: ₱1999</p>
+                <a href="@Url.Action("Create", "Appointment", new { serviceId = "29099b9a-c415-4364-9d8e-1acb35407ef7" })" class="btn btn-primary">Book Appointment</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Product -->
+    <section class="product-section">
+        <h2><img src="~/images/our_products.png" alt="Our Products"></h2>
+        <div class="product-item">
+            <img src="~/images/icure.jpg">
+            <p>Shampoo and Conditioner</p>
+            <p>Price: ₱1000</p>
+            <button>Buy</button>
+        </div>
+    </section>
+
+    <!-- Before and After -->
+    <section class="before-after-section">
+        <div class="before-after-container">
+            <div class="carousel-container">
+                <div class="carousel">
+                    <img src="~/images/BA1.jpg" alt="Before and After 1">
+                    <img src="~/images/BA2.jpg" alt="Before and After 2">
+                    <img src="~/images/BA3.jpg" alt="Before and After 3">
+                    <img src="~/images/BA4.jpg" alt="Before and After 4">
+                </div>
+            </div>
+            <div class="before-after-text">
+                <img src="~/images/before_after.png" alt="Before and After">
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="faqs-section">
+        <h2><img src="~/images/faqs.png" alt="FAQs Frequently Asked Questions"></h2>
+        <div class="faq-item">
+            <h4>1.	How many hours does a hair rebonding take?</h4>
+            <p>o A hair rebonding treatment typically takes about 3 to 4 hours, depending on hair length and thickness.</p>
+            <h4>2.	Do you have any promotions?</h4>
+            <p>
+                o Yes, we offer various promotions throughout the year, including discounts on Mother's Day and Father's Day,
+                as well as free products like shampoo and conditioner.
+            </p>
+            <h4>3.	Is there a deposit or appointment fee?</h4>
+            <p>o Yes, there is a 50 pesos deposit, and the appointment fee is 3% of the service cost.</p>
+            <h4>4.	Can I choose my stylist when booking an appointment?</h4>
+            <p>o Yes, you can choose your preferred stylist when booking an appointment.</p>
+            <h4>5.	Do you accept walk-ins?</h4>
+            <p>
+                oYes, we accept walk-in clients on a first-come, first-served basis. However, we recommend booking an appointment
+                in advance to ensure availability and minimize wait times.
+            </p>
+        </div>
+        <a asp-action="MoreFaqs" asp-controller="User" class="more-faqs">More FAQs</a>
+    </section>
+
+</main>

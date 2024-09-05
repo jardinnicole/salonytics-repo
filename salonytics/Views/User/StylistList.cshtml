@@ -1,0 +1,14 @@
+﻿@model IEnumerable<salonytics.Models.Entities.Stylist>
+
+<h2>Stylists</h2>
+
+@foreach (var stylist in Model)
+{
+    <div>
+        <h3>@stylist.FirstName @stylist.LastName</h3>
+        <p>Average Rating: @(stylist.Ratings.Any() ? stylist.Ratings.Average(r => r.Score) : 0)</p>
+        <p>
+            <a href="@Url.Action("StylistDetails", new { id = stylist.StylistId })">Details</a>
+        </p>
+    </div>
+}

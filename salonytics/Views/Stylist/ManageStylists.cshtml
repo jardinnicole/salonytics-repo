@@ -1,0 +1,64 @@
+﻿@model salonytics.Models.Entities.Stylist
+
+@{
+    ViewBag.Title = "Add/Edit Stylist";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm("SaveStylist", "Stylist", FormMethod.Post))
+{
+    @Html.HiddenFor(model => model.StylistId)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.FirstName)
+        @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.LastName)
+        @Html.TextBoxFor(model => model.LastName, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label asp-for="BranchId">Branch:</label>
+        <select asp-for="BranchId" class="form-control" required>
+            <option value="">Select Branch</option>
+            @foreach (var branch in ViewBag.Branches)
+            {
+                <option value="@branch.BranchId">@branch.BranchName</option>
+            }
+        </select>
+        <span asp-validation-for="BranchId" class="text-danger"></span>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Save</button>
+}
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#BranchId').change(function () {
+                var branchId = $(this).val(); // Get the selected branch ID
+                $.ajax({
+                    url: '/Stylist/GetManagersByBranch', // Endpoint to fetch managers by branch ID
+                    method: 'GET',
+                    data: { branchId: branchId }, // Pass the selected branch ID as a parameter
+                    success: function (data) {
+                        var managerDropdown = $('#ManagerId'); // Get the manager dropdown
+                        managerDropdown.empty(); // Clear previous options
+                        managerDropdown.append($('<option>').text('Select Manager').attr('value', ''));
+                        $.each(data, function (index, manager) {
+                            // Append new option for each manager
+                            managerDropdown.append($('<option>').text(manager.Text).attr('value', manager.Value));
+                        });
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(error);
+                    }
+                });
+            });
+        });
+
+    </script>
+}

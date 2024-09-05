@@ -1,0 +1,114 @@
+﻿@model salonytics.Models.Entities.Stylist
+
+@{
+    ViewBag.Title = "Create Stylist";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-3" })
+                <div class="col-md-9">
+                    @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label col-md-3" })
+                <div class="col-md-9">
+                    @Html.TextBoxFor(model => model.LastName, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.EmailAddress, htmlAttributes: new { @class = "control-label col-md-3" })
+                <div class="col-md-9">
+                    @Html.TextBoxFor(model => model.EmailAddress, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.EmailAddress, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="BranchId">Branch:</label>
+                <select asp-for="BranchId" class="form-control" required>
+                    <option value="">Select Branch</option>
+                    @foreach (var branch in ViewBag.Branches)
+                    {
+                        <option value="@branch.BranchId">@branch.BranchName</option>
+                    }
+                </select>
+                <span asp-validation-for="BranchId" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <!-- Dynamic Services Section -->
+            <div id="services-section">
+                <div class="form-group service-group">
+                    <label class="control-label col-md-3">Services:</label>
+                    <div class="col-md-9">
+                        <select asp-for="Services" class="form-control" required>
+                            <option value="">Select Service</option>
+                            @foreach (var service in ViewBag.Services)
+                            {
+                                <option value="@service.Value">@service.Text</option>
+                            }
+                        </select>
+                        <span asp-validation-for="Services" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-3 col-md-9">
+                    <button type="button" class="btn btn-success" id="add-service-btn">Add Service</button>
+                </div>
+            </div>
+            <!-- End Dynamic Services Section -->
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-3 col-md-9">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#add-service-btn').click(function () {
+                var newServiceGroup = $('<div>').addClass('form-group service-group');
+                var label = $('<label>').addClass('control-label col-md-3').text('Service');
+                var inputDiv = $('<div>').addClass('col-md-9');
+                var select = $('<select>').attr({
+                    name: 'Services',
+                    class: 'form-control service-input'
+                });
+
+                // Add options to the select dropdown
+                var options = '<option value="">Select Service</option>';
+                var services = @Html.Raw(Json.Serialize(ViewBag.Services));
+                services.forEach(function (service) {
+                    options += `<option value="${service.Value}">${service.Text}</option>`;
+                });
+                select.html(options);
+
+                inputDiv.append(select);
+                newServiceGroup.append(label);
+                newServiceGroup.append(inputDiv);
+
+                $('#services-section').append(newServiceGroup);
+            });
+        });
+    </script>
+}

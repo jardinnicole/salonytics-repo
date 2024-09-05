@@ -1,0 +1,29 @@
+﻿@model salonytics.Models.ViewScheduleViewModel
+
+<h2>View Stylist Schedule</h2>
+<input asp-for="StylistId" class="form-control" hidden />
+
+
+<h3>Stylist ID: @Model.StylistId</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Day of Week</th>
+            <th>Type</th>
+            <th>Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var schedule in Model.Schedules)
+        {
+            <tr>
+                <td>@schedule.DayOfWeek</td>
+                <td>@(schedule.IsRestDay ? "Rest Day" : "Working")</td>
+                <td>@(schedule.StartTime.ToString("hh\\:mm") ?? "N/A") - @(schedule.EndTime.ToString("hh\\:mm") ?? "N/A")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="CreateSchedule" asp-route-stylistId="@Model.StylistId">Edit Schedule</a>

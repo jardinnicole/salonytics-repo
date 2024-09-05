@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap') html
+
+{
+    font-size: 14px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+
+.navbar-brand {
+    margin-top: 30px;
+    margin-left: 70px;
+    padding:10px;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    font-family: "Poppins";
+    font-optical-sizing: auto;
+    font-style: 12px;
+    margin: 0;
+}
+
+header {
+    background-color: #19181c;
+    color: white;
+    font-family: "Poppins";
+    font-size: 18px;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 1000;
+}
+
+a {
+    transition: background 0.2s, color 0.2s;
+    font: white;
+}
+
+    a:hover, a:focus {
+        text-decoration: none;
+    }
+
+h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    z-index: 6;
+}
+
+#head {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+    #head .logo {
+        font-size: 22px;
+        font-weight: 700;
+        font-style: italic;
+        padding-right: 15px;
+        color: #eb6060;
+    }
+
+.header {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+    background-color: #212529;
+    position: fixed;
+    height: 60px !important;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.main {
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    }
+
+.mainInner {
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+    .mainInner div {
+        display: table-cell;
+        vertical-align: middle;
+        font-size: 3em;
+        font-weight: bold;
+        letter-spacing: 1.25px;
+    }
+
+#sidebarMenu {
+    top: 50px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    transform: translateX(-250px);
+    transition: transform 250ms ease-in-out;
+    background: #212529;
+    z-index: 50;
+}
+
+.sidebarMenuInner {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+    .sidebarMenuInner li {
+        list-style: none;
+        color: #fff;
+        padding: 20px;
+        cursor: pointer;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    }
+
+        .sidebarMenuInner li span {
+            display: block;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.50);
+        }
+
+        .sidebarMenuInner li a {
+            color: #fff;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+
+
+.sidebarIconToggle {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: fixed;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    top: 22px;
+    left: 15px;
+    height: 22px;
+    width: 22px;
+}
+
+.spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+
+.diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: left;
+}
+
+.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+}
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+.list {
+    list-style: none;
+    padding: 5px 0;
+}
+
+    .list li {
+        margin: 5px;
+        padding: 5px 35px;
+    }
+
+        .list li:hover {
+            background-color: #eb6060;
+        }
+
+    .list a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+.chart-container {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 50%; /* Adjust the width as needed */
+    height: 350px; /* Adjust the height as needed */
+}
+
+.chart {
+    width: 100%;
+    height: 80%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    max-width: %;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.btn-primary, .btn-secondary, .btn-danger {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid; /* Border color will be specified separately for each button */
+    border-radius: 1.5em; /* Border radius set to create an oval shape */
+    box-sizing: border-box;
+    color: inherit; /* Inherit text color from parent */
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 35px;
+    min-width: 0;
+    outline: none;
+    padding: 10px 15px; /* Reduced padding */
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+    .btn-primary:disabled, .btn-secondary:disabled, .btn-danger:disabled {
+        pointer-events: none;
+        opacity: 0.6; /* Reduce opacity for disabled state */
+    }
+
+    .btn-primary:hover, .btn-secondary:hover, .btn-danger:hover {
+        color: #fff; /* White color on hover */
+        background-color: #1A1A1A; /* Dark color for background on hover */
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px; /* Shadow on hover */
+        transform: translateY(-2px);
+    }
+
+    .btn-primary:active, .btn-secondary:active, .btn-danger:active {
+        background-color: #000; /* Black color for background on active */
+        box-shadow: none;
+        transform: translateY(0);
+    }
+
+.btn-primary {
+    border-color: #1A1A1A; /* Black color for primary */
+}
+
+.btn-secondary {
+    border-color: #6c757d; /* Gray color for secondary */
+    background-color: #6c757d; /* Gray color for background */
+}
+
+.btn-danger {
+    border-color: #dc3545; /* Red color for danger */
+    background-color: #dc3545; /* Red color for background */
+}
+
+.button-container {
+    display: relative;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+table {
+    border-spacing: 10px; /* Adjust the value to set the desired space */
+}
+
+    table td, table th {
+        padding: 8px;
+    }
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #19181c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: none; /* Initially hide the footer */
+}

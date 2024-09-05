@@ -1,0 +1,19 @@
+﻿@model salonytics.Models.Entities.Stylist
+
+<h2>@Model.FirstName @Model.LastName</h2>
+
+<p>Average Rating: @(Model.Ratings.Any() ? Model.Ratings.Average(r => r.Score) : 0)</p>
+
+<h3>Ratings</h3>
+@foreach (var rating in Model.Ratings)
+{
+    <div>
+        <p>Score: @rating.Score</p>
+        <p>Comment: @rating.Comment</p>
+        <p>Date: @rating.Date.ToShortDateString()</p>
+    </div>
+}
+
+<p>
+    <a href="@Url.Action("RateStylist", new { id = Model.StylistId })">Rate this Stylist</a>
+</p>

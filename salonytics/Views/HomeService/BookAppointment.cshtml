@@ -1,0 +1,186 @@
+﻿@model salonytics.Models.BookAppointmentViewModel
+
+@{
+    ViewData["Title"] = "Book Appointment";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center">Book Appointment</h2>
+
+    <form asp-action="BookAppointment" asp-controller="HomeService" method="post" data-val="true">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group mb-3">
+                    <label asp-for="Date" class="form-label">Date:</label>
+                    <input asp-for="Date" type="text" id="SelectedDate" class="form-control rounded custom-datepicker" required />
+                    <input asp-for="Date" type="hidden" id="hiddenDateField" class="form-control" />
+                    <span asp-validation-for="Date" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="BranchId" class="form-label">Home Location:</label>
+                    <select asp-for="BranchId" class="form-control rounded" id="BranchId" required>
+                        <option value="">Select Home Location</option>
+                        @foreach (var branch in Model.Branches)
+                        {
+                            <option value="@branch.Value">@branch.Text</option>
+                        }
+                    </select>
+                    <span asp-validation-for="BranchId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="StylistId" class="form-label">Stylist:</label>
+                    <select asp-for="StylistId" class="form-control rounded" id="StylistId" required>
+                        <option value="">Select Stylist</option>
+                    </select>
+                    <span asp-validation-for="StylistId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="ServiceId" class="form-label">Service:</label>
+                    <select asp-for="ServiceId" class="form-control rounded" id="ServiceId" required>
+                        <option value="">Select Service</option>
+                        @foreach (var service in Model.Services)
+                        {
+                            <option value="@service.Value" data-price="@service.Text">@service.Text</option>
+                        }
+                    </select>
+                    <span asp-validation-for="ServiceId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="StartTime" class="form-label">Start Time:</label>
+                    <select asp-for="StartTime" class="form-control rounded" id="StartTime" required>
+                        <option value="">Select Time</option>
+                    </select>
+                    <span asp-validation-for="StartTime" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="NoOfHeads" class="form-label">Number of Heads:</label>
+                    <input asp-for="NoOfHeads" type="number" class="form-control rounded" id="NoOfHeads" min="1" required />
+                    <span asp-validation-for="NoOfHeads" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group mb-3">
+                    <label asp-for="FullName" class="form-label">Full Name:</label>
+                    <input asp-for="FullName" class="form-control rounded" readonly />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="ContactNo" class="form-label">Contact No:</label>
+                    <input asp-for="ContactNo" class="form-control rounded" readonly />
+                    <span asp-validation-for="ContactNo" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Email" class="form-label">Email:</label>
+                    <input asp-for="Email" class="form-control rounded" readonly />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="TotalPrice" class="form-label">Total Price:</label>
+                    <input asp-for="TotalPrice" class="form-control rounded" id="TotalPrice" readonly />
+                    <span asp-validation-for="TotalPrice" class="text-danger"></span>
+                </div>
+
+             <div class="form-group mb-3">
+                    <label asp-for="Remarks" class="form-label">Remarks:</label>
+                    <textarea asp-for="Remarks" class="form-control rounded"></textarea>
+                    <span asp-validation-for="Remarks" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary rounded-pill">Book Appointment</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/js/bootstrap-datepicker.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/css/bootstrap-datepicker.min.css" rel="stylesheet" />
+
+    <script>
+        $(document).ready(function () {
+            // Initialize date picker
+            $('#SelectedDate').datepicker({
+                format: 'yyyy-mm-dd',
+                autoclose: true,
+                startDate: new Date(),
+                beforeShowDay: function (date) {
+                    var dateString = date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2);
+                    return { enabled: $.inArray(dateString, @Html.Raw(Json.Serialize(Model.FullyBookedDates.Select(d => d.ToString("yyyy-MM-dd")).ToList()))) === -1 };
+                }
+            });
+
+            $('#SelectedDate').change(function () {
+                $('#hiddenDateField').val($(this).val());
+            });
+
+            $('#BranchId').change(function () {
+                var branchId = $(this).val();
+                updateStylists(branchId);
+            });
+
+            $('#ServiceId').change(function () {
+                updateTotalPrice();
+            });
+
+            $('#NoOfHeads').change(function () {
+                updateTotalPrice();
+            });
+
+            function updateStylists(branchId) {
+                $.ajax({
+                    url: '/HomeService/GetStylists',
+                    method: 'GET',
+                    data: { branchId: branchId },
+                    success: function (data) {
+                        var stylistDropdown = $('#StylistId');
+                        stylistDropdown.empty();
+                        stylistDropdown.append($('<option>', { value: '', text: 'Select Stylist' }));
+                        $.each(data, function (index, stylist) {
+                            stylistDropdown.append($('<option>', {
+                                value: stylist.stylistId,
+                                text: stylist.name
+                            }));
+                        });
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(error);
+                    }
+                });
+            }
+
+            function updateTotalPrice() {
+                var serviceId = $('#ServiceId').val();
+                var noOfHeads = $('#NoOfHeads').val();
+
+                $.ajax({
+                    url: '/HomeService/GetServicePrice',
+                    method: 'GET',
+                    data: { serviceId: serviceId },
+                    success: function (data) {
+                        var price = parseFloat(data) || 0;
+                        var totalPrice = price * parseInt(noOfHeads) || 0;
+                        $('#TotalPrice').val(totalPrice.toFixed(2));
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error fetching service price:', error);
+                    }
+                });
+            }
+        });
+    </script>
+}

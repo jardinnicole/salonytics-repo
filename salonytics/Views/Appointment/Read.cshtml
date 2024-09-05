@@ -1,0 +1,121 @@
+﻿@model Salonytics.Models.Entities.Appointment
+
+@{
+    ViewData["Title"] = "Appointment Details";
+}
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Appointment Details</h5>
+        <!-- Table for displaying appointment details -->
+        <table class="table table-bordered">
+            <tbody>
+                <tr>
+                    <th style="width: 30%;">Appointment ID:</th>
+                    <td>@Model.AppointmentId</td>
+                </tr>
+                <tr>
+                    <th>Status:</th>
+                    <td>@Model.AppointmentStatus</td>
+                </tr>
+                <tr>
+                    <th>Approved:</th>
+                    <td>@(Model.IsApproved ? "Yes" : "No")</td>
+                </tr>
+                <tr>
+                    <th>Full Name:</th>
+                    <td>@Model.FullName</td>
+                </tr>
+                <tr>
+                    <th>Contact Number:</th>
+                    <td>@Model.ContactNo</td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td>@Model.Email</td>
+                </tr>
+                <tr>
+                    <th>Service:</th>
+                    <td>@(Model.Service != null ? Model.Service.Name : "Not Assigned")</td>
+                </tr>
+                <tr>
+                    <th>Branch:</th>
+                    <td>@(Model.Branch != null ? Model.Branch.BranchName : "Not Assigned")</td>
+                </tr>
+                <tr>
+                    <th>Date:</th>
+                    <td>@Model.Date.ToString("yyyy-MM-dd")</td>
+                </tr>
+                <tr>
+                    <th>Start Time:</th>
+                    <td>@Model.StartTime.ToString("hh\\:mm")</td>
+                </tr>
+                @if (Model.EndTime != null)
+                {
+                    <tr>
+                        <th>End Time:</th>
+                        <td>@Model.EndTime.Value.ToString("hh\\:mm")</td>
+                    </tr>
+                }
+                <tr>
+                    <th>Number of Heads:</th>
+                    <td>@Model.NoOfHeads</td>
+                </tr>
+                @if (!string.IsNullOrEmpty(Model.Remarks))
+                {
+                    <tr>
+                        <th>Remarks:</th>
+                        <td>@Model.Remarks</td>
+                    </tr>
+                }
+                <tr>
+                    <th>Total Price:</th>
+                    <td>@Model.TotalPrice</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Buttons for Edit and Cancel Actions -->
+        <div class="mb-3">
+            <a asp-action="Read" asp-route-id="@Model.AppointmentId" class="btn btn-primary me-2">Edit Appointment</a>
+            <!-- Cancel Button -->
+            <button type="button" class="btn btn-danger btn-sm cancel-appointment" data-toggle="modal" data-target="#cancelModal-@Model.AppointmentId">
+                Cancel
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="cancelModal-@Model.AppointmentId" tabindex="-1" role="dialog" aria-labelledby="cancelModalLabel-@Model.AppointmentId" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="cancelModalLabel-@Model.AppointmentId">Cancel Appointment</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Are you sure you want to cancel this appointment?
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <form asp-controller="Appointment" asp-action="Cancel" method="post">
+                                <input type="hidden" name="id" value="@Model.AppointmentId" />
+                                <button type="submit" class="btn btn-danger">Cancel Appointment</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @section Scripts {
+                <script>
+                    // Close alert on close button click
+                    $('.alert .close').on('click', function () {
+                        $(this).parent().hide();
+                    });
+
+                    // Handle cancellation success notification
+                    $('.cancel-appointment').on('click', function () {
+                        $('#appointmentCancelledAlert').hide(); // Hide any previous alerts
+                    });
+                </script>
+            }

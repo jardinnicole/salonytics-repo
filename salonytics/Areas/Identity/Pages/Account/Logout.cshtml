@@ -1,0 +1,36 @@
+﻿@page
+@model LogoutModel
+@{
+    ViewData["Title"] = "Log out";
+    Layout = "_FrontLayout";
+}
+
+<header>
+    <h1>@ViewData["Title"]</h1>
+</header>
+
+@section Scripts {
+    <script>
+        // Automatically submit the logout form when the page is loaded
+        $(document).ready(function () {
+            var isAuthenticated = '@(User.Identity?.IsAuthenticated ?? false)';
+
+            // Check if the user is authenticated and submit the form
+            if (isAuthenticated.toLowerCase() === 'true') {
+                $('#logoutForm').submit(); // Submit the form
+            }
+        });
+    </script>
+}
+
+@if (User.Identity?.IsAuthenticated ?? false)
+{
+    <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+        <p>Logging out...</p>
+    </form>
+}
+else
+{
+    <p>You have successfully logged out of the application.</p>
+}
+

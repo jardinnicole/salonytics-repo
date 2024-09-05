@@ -1,0 +1,54 @@
+﻿@model salonytics.Models.Entities.Transaction
+
+<head>
+    <link rel="stylesheet" href="~/css/TransactionPrint.css" media="print" />
+</head>
+
+<div class="container mt-5 print-container">
+    <div class="card">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <h4 class="card-title">Transaction Details</h4>
+            <button onclick="window.print()" class="btn btn-secondary d-print-none">Print</button>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Transaction ID:</dt>
+                <dd class="col-sm-9">
+                    <strong>@Model.TransactionId</strong>
+                </dd>
+
+                <dt class="col-sm-3">Appointment Details:</dt>
+                <dd class="col-sm-9">
+                    @if (Model.Appointment != null)
+                    {
+                        <ul class="list-unstyled">
+                            <li><strong>Appointment Date:</strong> @Model.Appointment.Date.ToString("yyyy-MM-dd")</li>
+                            <li><strong>Customer Name:</strong> @Model.Appointment.FullName</li>
+                            <li><strong>Service:</strong> @Model.Appointment.Service.Name</li>
+                            <li><strong>Total Price:</strong> @Model.Appointment.TotalPrice</li>
+                            <li><strong>Stylist:</strong> @Model.Appointment.Stylist.FirstName @Model.Appointment.Stylist.LastName</li>
+                        </ul>
+                    }
+                    else
+                    {
+                        <p class="text-warning">No appointment details found for this transaction.</p>
+                    }
+                </dd>
+
+                <dt class="col-sm-3">Transaction Details:</dt>
+                <dd class="col-sm-9">
+                    <ul class="list-unstyled">
+                        <li><strong>Transaction ID:</strong> @Model.TransactionId</li>
+                        <li><strong>Amount Paid:</strong> @Model.Appointment.TotalPrice</li>
+                        <li><strong>Payer ID:</strong> @Model.PayerId</li>
+                        <li><strong>Status:</strong> @Model.Status</li>
+                        <li><strong>Created At:</strong> @Model.CreatedAt.ToString("yyyy-MM-dd HH:mm:ss")</li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+        <div class="card-footer text-end d-print-none">
+            <a asp-action="Index" class="btn btn-primary">Back to Transactions</a>
+        </div>
+    </div>
+</div>

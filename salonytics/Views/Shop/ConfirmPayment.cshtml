@@ -1,0 +1,43 @@
+﻿@model salonytics.Models.Entities.Order
+
+@{
+    ViewData["Title"] = "Confirm Payment";
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <h2>Payment Confirmation</h2>
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">Payment Details</h3>
+            <p><strong>Transaction ID:</strong> @Model.TransactionId</p>
+            <p><strong>Payer ID:</strong> @Model.PayerId</p>
+            <p><strong>Order Date:</strong> @Model.OrderDate.ToShortDateString()</p>
+            <p><strong>Customer Name:</strong> @Model.CustomerName</p>
+            <p><strong>Customer Email:</strong> @Model.CustomerEmail</p>
+            <hr />
+            <h3 class="card-title">Order Details</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var detail in Model.OrderDetails)
+                    {
+                        <tr>
+                            <td>@detail.Inventory.ItemName</td>
+                            <td>P @detail.Price</td>
+                            <td>@detail.Quantity</td>
+                            <td>P @(detail.Price * detail.Quantity)</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
